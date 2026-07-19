@@ -1,0 +1,382 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<!--
+ * See the NOTICE file distributed with this work for additional
+ * information regarding copyright ownership.
+ *
+ * This is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU Lesser General Public License as
+ * published by the Free Software Foundation; either version 2.1 of
+ * the License, or (at your option) any later version.
+ *
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this software; if not, write to the Free
+ * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
+-->
+
+<xwikidoc version="1.5" reference="BookVersions.Code.Translations" locale="de">
+  <web>BookVersions.Code</web>
+  <name>Translations</name>
+  <language>de</language>
+  <defaultLanguage>en</defaultLanguage>
+  <translation>1</translation>
+  <creator>xwiki:XWiki.Admin</creator>
+  <parent>BookVersions.Code.WebHome</parent>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <version>1.1</version>
+  <title>Translations</title>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>plain/1.0</syntaxId>
+  <hidden>true</hidden>
+  <content># Class
+### Missing: BookVersions.Code.VersionClass_precedingVersionReference=
+### Missing: BookVersions.Code.PageStatusClass_status_draft=
+### Missing: BookVersions.Code.PageStatusClass_status_review=
+### Missing: BookVersions.Code.PageStatusClass_status_complete=
+### Missing: BookVersions.Code.PageTranslationClass_status_not_translated=
+### Missing: BookVersions.Code.PageTranslationClass_status_outdated=
+### Missing: BookVersions.Code.PageTranslationClass_status_translated=
+
+# Library Reference Class
+### Missing: BookVersions.Code.LibraryReferenceClass_libraryReference=
+### Missing: BookVersions.Code.LibraryReferenceClass_libraryReference.Empty=
+### Missing: BookVersions.Code.LibraryReferenceClass_libraryReference_=
+### Missing: BookVersions.Code.LibraryReferenceClass_libraryVersionReference=
+### Missing: BookVersions.Code.LibraryReferenceClass_libraryVersionReference.Empty=
+### Missing: BookVersions.Code.LibraryReferenceClass_libraryVersionReference_=
+
+# Publication Configuration Class
+### Missing: BookVersions.Code.PublicationConfigurationClass_source=
+### Missing: BookVersions.Code.PublicationConfigurationClass_source_hint=
+### Missing: BookVersions.Code.PublicationConfigurationClass_destinationSpace=
+### Missing: BookVersions.Code.PublicationConfigurationClass_destinationSpace_hint=
+### Missing: BookVersions.Code.PublicationConfigurationClass_version=
+### Missing: BookVersions.Code.PublicationConfigurationClass_version_hint=
+### Missing: BookVersions.Code.PublicationConfigurationClass_variant=
+### Missing: BookVersions.Code.PublicationConfigurationClass_variant_hint=
+### Missing: BookVersions.Code.PublicationConfigurationClass_language=
+### Missing: BookVersions.Code.PublicationConfigurationClass_language_hint=
+### Missing: BookVersions.Code.PublicationConfigurationClass_publishOnlyComplete=
+### Missing: BookVersions.Code.PublicationConfigurationClass_publishOnlyComplete_hint=
+### Missing: BookVersions.Code.PublicationConfigurationClass_publishPageOrder=
+### Missing: BookVersions.Code.PublicationConfigurationClass_publishPageOrder_hint=
+### Missing: BookVersions.Code.PublicationConfigurationClass_publishBehaviour=
+### Missing: BookVersions.Code.PublicationConfigurationClass_publishBehaviour_hint=
+### Missing: BookVersions.Code.PublicationConfigurationClass_publishBehaviour_cancel=
+### Missing: BookVersions.Code.PublicationConfigurationClass_publishBehaviour_update=
+### Missing: BookVersions.Code.PublicationConfigurationClass_publishBehaviour_republish=
+### Missing: BookVersions.Code.PublicationConfigurationClass_title=
+### Missing: BookVersions.Code.PublicationConfigurationClass_title_hint=
+### Missing: BookVersions.Code.PublicationConfigurationClass_description=
+### Missing: BookVersions.Code.PublicationConfigurationClass_description_hint=
+### Missing: BookVersions.Code.PublicationConfigurationClass.sourceLocationLabel=
+### Missing: BookVersions.Code.PublicationConfigurationClass.sourceLocationHint=
+### Missing: BookVersions.Code.PublicationConfigurationClass.destinationSpaceLabel=
+### Missing: BookVersions.Code.PublicationConfigurationClass.destinationSpaceHint=
+### Missing: BookVersions.Code.PublicationConfigurationClass.destinationLocationLabel=
+### Missing: BookVersions.Code.PublicationConfigurationClass.destinationLocationHint=
+### Missing: BookVersions.Code.PublicationConfigurationClass.destinationWikiLabel=
+### Missing: BookVersions.Code.PublicationConfigurationClass.destinationWikiHint=
+
+# Sheet
+### Missing: BookVersions.Code.VersionClassSheet.versionConfiguration=
+### Missing: BookVersions.Code.VersionClassSheet.librariesConfiguration=
+### Missing: BookVersions.Code.VersionClassSheet.newConfiguration=
+### Missing: BookVersions.Code.VariantClassSheet.associatedPages=
+### Missing: BookVersions.Code.VariantClassSheet.variantConfiguration=
+### Missing: BookVersions.Code.VersionClassSheet.deleteLibrairieConfiguration=
+### Missing: BookVersions.Code.DeletedContentClassSheet.titlePrefix=
+### Missing: BookVersions.Code.DeletedContentClassSheet.warning=
+### Missing: BookVersions.Code.PublicationConfigurationSheet.nextButton=
+
+# -- Publication canceled messages
+### Missing: BookVersions.Code.PublicationConfigurationSheet.previewTitle=
+### Missing: BookVersions.Code.PublicationConfigurationSheet.publicationCanceledBecauseTargetIsNotEmpty=
+### Missing: BookVersions.Code.PublicationConfigurationSheet.existingDocuments=
+### Missing: BookVersions.Code.PublicationConfigurationSheet.existingDocumentLine=
+# -- Publication republish / removal
+### Missing: BookVersions.Code.PublicationConfigurationSheet.publicationWillRepublish=
+### Missing: BookVersions.Code.PublicationConfigurationSheet.theFollowingDocumentsWillBeRemoved=
+### Missing: BookVersions.Code.PublicationConfigurationSheet.docWouldBeRemoved=
+# -- Publishing from / variant
+### Missing: BookVersions.Code.PublicationConfigurationSheet.publishingFrom=
+### Missing: BookVersions.Code.PublicationConfigurationSheet.usingVariant=
+# -- Library usage / warnings
+### Missing: BookVersions.Code.PublicationConfigurationSheet.usingLibrary=
+### Missing: BookVersions.Code.PublicationConfigurationSheet.publishedAt=
+### Missing: BookVersions.Code.PublicationConfigurationSheet.libraryIsNotPublished=
+# -- Pages to process
+### Missing: BookVersions.Code.PublicationConfigurationSheet.pagesToProcess=
+# -- Page publication lines
+### Missing: BookVersions.Code.PublicationConfigurationSheet.pageWillBePublished=
+### Missing: BookVersions.Code.PublicationConfigurationSheet.contentFrom=
+# -- Deleted or skipped pages
+### Missing: BookVersions.Code.PublicationConfigurationSheet.pageIsMarkedDeleted=
+### Missing: BookVersions.Code.PublicationConfigurationSheet.pageHasSomething=
+### Missing: BookVersions.Code.PublicationConfigurationSheet.pageIsMarkedDeletedRemoveFromTarget=
+### Missing: BookVersions.Code.PublicationConfigurationSheet.pageWillBeDeletedFromTarget=
+# -- Deletion summary
+### Missing: BookVersions.Code.PublicationConfigurationSheet.documentsToBeRemovedFromTarget=
+### Missing: BookVersions.Code.PublicationConfigurationSheet.pageOrderWillBePreserved=
+# -- Legend
+### Missing: BookVersions.Code.PublicationConfigurationSheet.legend=
+### Missing: BookVersions.Code.PublicationConfigurationSheet.legendWillBePublished=
+### Missing: BookVersions.Code.PublicationConfigurationSheet.legendWillBeSkipped=
+### Missing: BookVersions.Code.PublicationConfigurationSheet.legendWillBeDeleted=
+# -- No preview data
+### Missing: BookVersions.Code.PublicationConfigurationSheet.noPreviewDataAvailable=
+### Missing: BookVersions.Code.PublicationConfigurationSheet.previewContinueButton=
+### Missing: BookVersions.Code.PublicationConfigurationSheet.pageNotInPublishedVariant=
+
+# Publication process
+### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.nullParameter=
+### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.start=
+### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.loadConfiguration=
+### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.noConfig=
+### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.noSource=
+### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.noTarget=
+### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.noBehaviour=
+### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.targetNotEmpty=
+### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.targetEmptying=
+### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.sourceNotExist=
+### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.startPublication=
+### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.refNotFound=
+### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.startPagePublication=
+### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.notCollection=
+### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.noContent=
+### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.targetRefNotComputed=
+### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.copyPage=
+### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.transformContent=
+### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.endPagePublication=
+### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.removeMarkedAsDeleted=
+### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.updatePageOrder=
+### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.endPublication=
+### Missing: BookVersions.DefaultBookVersionsManager.isToBePublished.markedAsDeleted=
+### Missing: BookVersions.DefaultBookVersionsManager.isToBePublished.status=
+### Missing: BookVersions.DefaultBookVersionsManager.isToBePublished.variantPage=
+### Missing: BookVersions.DefaultBookVersionsManager.isToBePublished.otherVariant=
+### Missing: BookVersions.DefaultBookVersionsManager.isToBePublished.noTranslation=
+### Missing: BookVersions.DefaultBookVersionsManager.isToBePublished.noCompleteTranslation=
+### Missing: BookVersions.DefaultBookVersionsManager.transformSiblingBookPage.notInCollection=
+### Missing: BookVersions.DefaultBookVersionsManager.transformLibrary.notPublished=
+
+# Creation templates
+### Missing: BookVersions.template.newBook=
+### Missing: BookVersions.template.newLibrary=
+### Missing: BookVersions.template.description=
+### Missing: BookVersions.template.title=
+
+# Page Creation form
+### Missing: BookVersions.creationForm.newPage=
+### Missing: BookVersions.creationForm.pageTitle=
+### Missing: BookVersions.creationForm.pageTitle.hint=
+### Missing: BookVersions.creationForm.pageUnversioned=
+### Missing: BookVersions.creationForm.pageUnversioned.hint=
+### Missing: BookVersions.creationForm.create=
+### Missing: BookVersions.creationForm.add=
+### Missing: BookVersions.creationForm.name=
+### Missing: BookVersions.creationForm.libTitle=
+
+# Version Creation form
+### Missing: BookVersions.creationForm.newVersion=
+
+# Variant Creation form
+### Missing: BookVersions.creationForm.newVariant=
+
+# Library Creation form
+### Missing: BookVersions.creationForm.newLibrary=
+
+# Publication Configuration Creation form
+### Missing: BookVersions.creationForm.newPublicationConfiguration=
+
+# Navigation menu
+### Missing: BookVersions.navMenu.versionSelect=
+### Missing: BookVersions.navMenu.versionSelect.hint=
+### Missing: BookVersions.navMenu.versionSelect.noContent=
+### Missing: BookVersions.navMenu.versionSelect.unversioned=
+### Missing: BookVersions.navMenu.versionSelect.tooltip.inherited=
+### Missing: BookVersions.navMenu.versionSelect.tooltip.versionned=
+### Missing: BookVersions.navMenu.versionSelect.tooltip.noVersion=
+### Missing: BookVersions.navMenu.versionSelect.tooltip.noContent=
+### Missing: BookVersions.navMenu.createVersionWithLink=
+### Missing: BookVersions.navMenu.variantSelect=
+### Missing: BookVersions.navMenu.pageIsNotAssociated=
+### Missing: BookVersions.navMenu.pageRestrictedTo=
+### Missing: BookVersions.navMenu.variantSelect.tooltip.restricted=
+### Missing: BookVersions.navMenu.variantSelect.tooltip.notAssociatedVariantSelect=
+### Missing: BookVersions.navMenu.variantSelect.tooltip.notAssociatedNoVariantSelected=
+### Missing: BookVersions.navMenu.associateVariantWithLink=
+### Missing: BookVersions.navMenu.languageSelect=
+### Missing: BookVersions.navMenu.noLanguageSelected=
+### Missing: BookVersions.navMenu.languageSelected=
+### Missing: BookVersions.navMenu.languageDefaultSelected=
+### Missing: BookVersions.navMenu.languageSelect.tooltip.languageSelected=
+### Missing: BookVersions.navMenu.languageSelect.tooltip.languageDefaultSelected=
+### Missing: BookVersions.navMenu.languageSelect.tooltip.noLanguageSelected=
+### Missing: BookVersions.navMenu.translationStatus.not_translated=
+### Missing: BookVersions.navMenu.translationStatus.outdated=
+### Missing: BookVersions.navMenu.translationStatus.translated=
+### Missing: BookVersions.navMenu.translationStatus.tooltip.not_translated=
+### Missing: BookVersions.navMenu.translationStatus.tooltip.outdated=
+### Missing: BookVersions.navMenu.translationStatus.tooltip.translated=
+
+# Administration menu
+### Missing: BookVersions.adminMenu.title=
+### Missing: BookVersions.adminMenu.manage=
+### Missing: BookVersions.adminMenu.manageVersions=
+### Missing: BookVersions.adminMenu.manageVariants=
+### Missing: BookVersions.adminMenu.manageLibraries=
+### Missing: BookVersions.adminMenu.manageLanguages=
+### Missing: BookVersions.adminMenu.pageActions=
+### Missing: BookVersions.adminMenu.overview=
+### Missing: BookVersions.adminMenu.addPageToVariant=
+### Missing: BookVersions.adminMenu.removePageFromVariant=
+### Missing: BookVersions.adminMenu.publishLable=
+### Missing: BookVersions.navMenu.convertToUnversioned=
+### Missing: BookVersions.navMenu.convertToVersioned=
+### Missing: BookVersions.adminMenu.statusLable=
+### Missing: BookVersions.adminMenu.publish=
+### Missing: BookVersions.navMenu.markDeleted=
+### Missing: BookVersions.navMenu.unmarkDeleted=
+### Missing: BookVersions.navMenu.deleteVersion=
+### Missing: BookVersions.navMenu.deleteAllVersions=
+### Missing: BookVersions.navMenu.deletePage=
+### Missing: BookVersions.navMenu.noLanguageSelected=
+### Missing: BookVersions.navMenu.defaultLanguage=
+### Missing: BookVersions.adminMenu.librariesText=
+### Missing: BookVersions.adminMenu.libraries.showPagesBtn=
+### Missing: BookVersions.adminMenu.libraries.macrosPagesListHeading=
+### Missing: BookVersions.adminMenu.libraries.noMacroUsingPage=
+
+# PageSheet content
+### Missing: BookVersion.pageSheet.nocontent=
+
+# Admin live data values
+### Missing: BookVersions.adminLD.version=
+### Missing: BookVersions.adminLD.variant=
+### Missing: BookVersions.adminLD.library=
+### Missing: BookVersions.adminLD.emptyvalue=
+### Missing: BookVersions.adminLD.doc.title=
+### Missing: BookVersions.adminLD.doc.creationDate=
+### Missing: BookVersions.adminLD.doc.date=
+### Missing: BookVersions.adminLD.doc.libraryReference=
+### Missing: BookVersions.adminLD.doc.libraryVersionReference=
+### Missing: BookVersions.adminLD.doc.precedingVersionReference=
+### Missing: BookVersions.adminLD.description=
+### Missing: BookVersions.adminLD._actions=
+
+# Variants linked pages Admin UI
+### Missing: BookVersions.variants.linkedPagesListHeading=
+### Missing: BookVersions.variants.macrosPagesListHeading=
+### Missing: BookVersions.variants.noLinkedPage=
+### Missing: BookVersions.variants.noMacroUsingPage=
+### Missing: BookVersions.variants.showPagesForVariant=
+### Missing: BookVersions.variants.loadPagesBtn=
+
+# Library include macro
+### Missing: rendering.macro.includeLibrary.name=
+### Missing: rendering.macro.includeLibrary.description=
+### Missing: rendering.macro.includeLibrary.parameter.keyReference.name=
+### Missing: rendering.macro.includeLibrary.parameter.keyReference.description=
+
+# Excerpt Library include macro
+### Missing: rendering.macro.excerptIncludeLibrary.name=
+### Missing: rendering.macro.excerptIncludeLibrary.description=
+### Missing: rendering.macro.excerptIncludeLibrary.parameter.keyReference.name=
+### Missing: rendering.macro.excerptIncludeLibrary.parameter.keyReference.description=
+### Missing: rendering.macro.excerptIncludeLibrary.parameter.name.name=
+### Missing: rendering.macro.excerptIncludeLibrary.parameter.name.description=
+### Missing: rendering.macro.excerptIncludeLibrary.parameter.nopanel.name=
+### Missing: rendering.macro.excerptIncludeLibrary.parameter.nopanel.description=
+### Missing: rendering.macro.excerptIncludeLibrary.parameter.inline.name=
+### Missing: rendering.macro.excerptIncludeLibrary.parameter.inline.description=
+
+# Content Translation macro
+### Missing: rendering.macro.contentTranslation.name=
+### Missing: rendering.macro.contentTranslation.description=
+### Missing: rendering.macro.contentTranslation.parameter.language.name=
+### Missing: rendering.macro.contentTranslation.parameter.title.name=
+### Missing: rendering.macro.contentTranslation.parameter.title.description=
+### Missing: rendering.macro.contentTranslation.parameter.status.name=
+### Missing: rendering.macro.contentTranslation.parameter.status.description=
+### Missing: rendering.macro.contentTranslation.parameter.isDefault.name=
+### Missing: rendering.macro.contentTranslation.parameter.isDefault.description=
+
+# Variant macro
+### Missing: rendering.macro.variant.name=
+### Missing: rendering.macro.variant.description=
+### Missing: rendering.macro.variant.parameter.name.name=
+### Missing: rendering.macro.variant.parameter.name.description=
+
+    # Versions Admin UI
+### Missing: BookVersions.versions.LD.status=
+### Missing: BookVersions.versions.LD.doc.date=
+### Missing: BookVersions.versions.LD.doc.name=
+### Missing: BookVersions.versions.LD.doc.title=
+### Missing: BookVersions.versions.LD.doc.creationDate=
+### Missing: BookVersions.versions.LD.emptyvalue=
+### Missing: BookVersions.versions.LD.confirmDelete=
+
+# Overview Admin UI
+### Missing: BookVersions.overview.LD.status=
+### Missing: BookVersions.overview.LD.doc.date=
+### Missing: BookVersions.overview.LD.doc.name=
+### Missing: BookVersions.overview.LD.doc.title=
+### Missing: BookVersions.overview.LD.doc.creationDate=
+### Missing: BookVersions.overview.LD.emptyvalue=
+### Missing: BookVersions.overview.LD.variantsList=
+
+# Multilingual
+### Missing: BookVersions.languages.warning=
+### Missing: BookVersions.languages.title.missing=
+### Missing: BookVersions.language.select=
+### Missing: BookVersions.Code.MultilingualClass_enabled=
+### Missing: BookVersions.Code.MultilingualClass_supportedLanguages=
+
+# Edit inherited content
+### Missing: BookVersions.Code.CustomEditHandler.popupTitle=
+### Missing: BookVersions.Code.CustomEditHandler.popupDescription=
+### Missing: BookVersions.Code.CustomEditHandler.popupSwitchVersion=
+### Missing: BookVersions.Code.CustomEditHandler.popupCreateContentForVersion=
+### Missing: BookVersions.Code.CustomEditHandler.popupCancel=
+
+# Version delete
+### Missing: BookVersions.Code.CustomVersionDeleteHandler.popupTitle=
+### Missing: BookVersions.Code.CustomVersionDeleteHandler.popupDescription=
+### Missing: BookVersions.Code.CustomVersionDeleteHandler.popupProceed=
+### Missing: BookVersions.Code.CustomVersionDeleteHandler.popupCancel=
+
+# Publication progress
+### Missing: BookVersions.Code.PublicationProgress.title=
+### Missing: BookVersions.Code.PublicationProgress.back=
+### Missing: BookVersions.Code.PublicationProgress.goToPublished=
+### Missing: BookVersions.Code.PublicationActionHandler.error.jobCreation=
+### Missing: BookVersions.Code.PublicationActionHandler.error.permission=
+
+# Set status progress
+### Missing: BookVersions.Code.BookOverview.statusMissing=
+### Missing: BookVersions.Code.BookOverview.changeStatusFailed=
+### Missing: BookVersions.Code.BookOverview.changeStatus=
+### Missing: BookVersions.Code.BookOverview.changeStatusProgress=
+### Missing: BookVersions.Code.BookOverview.statusField=
+### Missing: BookVersions.Code.BookOverview.statusFieldHint=
+### Missing: BookVersions.Code.BookOverview.statusPlaceHolder=
+### Missing: BookVersions.Code.BookOverview.changeStatusBtn=
+
+# Include Sibling Page macro
+### Missing: BookVersions.includesibling.outsidespace=
+### Missing: BookVersions.includesibling.doesnotexist=
+### Missing: rendering.macro.includeSiblingBookPage.name=
+### Missing: rendering.macro.includeSiblingBookPage.description=
+### Missing: rendering.macro.includeSiblingBookPage.parameter.reference.name=
+### Missing: rendering.macro.includeSiblingBookPage.parameter.reference.description=
+</content>
+</xwikidoc>
