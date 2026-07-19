@@ -37,346 +37,346 @@
   <syntaxId>plain/1.0</syntaxId>
   <hidden>true</hidden>
   <content># Class
-### Missing: BookVersions.Code.VersionClass_precedingVersionReference=
-### Missing: BookVersions.Code.PageStatusClass_status_draft=
-### Missing: BookVersions.Code.PageStatusClass_status_review=
-### Missing: BookVersions.Code.PageStatusClass_status_complete=
-### Missing: BookVersions.Code.PageTranslationClass_status_not_translated=
-### Missing: BookVersions.Code.PageTranslationClass_status_outdated=
-### Missing: BookVersions.Code.PageTranslationClass_status_translated=
+BookVersions.Code.VersionClass_precedingVersionReference=Verweis auf vorherige Version
+BookVersions.Code.PageStatusClass_status_draft=Entwurf
+BookVersions.Code.PageStatusClass_status_review=Überprüfung
+BookVersions.Code.PageStatusClass_status_complete=Abgeschlossen
+BookVersions.Code.PageTranslationClass_status_not_translated=Nicht übersetzt
+BookVersions.Code.PageTranslationClass_status_outdated=Veraltet
+BookVersions.Code.PageTranslationClass_status_translated=Übersetzt
 
 # Library Reference Class
-### Missing: BookVersions.Code.LibraryReferenceClass_libraryReference=
-### Missing: BookVersions.Code.LibraryReferenceClass_libraryReference.Empty=
+BookVersions.Code.LibraryReferenceClass_libraryReference=Bibliotheksreferenz
+BookVersions.Code.LibraryReferenceClass_libraryReference.Empty=---
 ### Missing: BookVersions.Code.LibraryReferenceClass_libraryReference_=
-### Missing: BookVersions.Code.LibraryReferenceClass_libraryVersionReference=
-### Missing: BookVersions.Code.LibraryReferenceClass_libraryVersionReference.Empty=
+BookVersions.Code.LibraryReferenceClass_libraryVersionReference=Bibliotheksversionsreferenz
+BookVersions.Code.LibraryReferenceClass_libraryVersionReference.Empty=---
 ### Missing: BookVersions.Code.LibraryReferenceClass_libraryVersionReference_=
 
 # Publication Configuration Class
-### Missing: BookVersions.Code.PublicationConfigurationClass_source=
-### Missing: BookVersions.Code.PublicationConfigurationClass_source_hint=
-### Missing: BookVersions.Code.PublicationConfigurationClass_destinationSpace=
-### Missing: BookVersions.Code.PublicationConfigurationClass_destinationSpace_hint=
-### Missing: BookVersions.Code.PublicationConfigurationClass_version=
-### Missing: BookVersions.Code.PublicationConfigurationClass_version_hint=
-### Missing: BookVersions.Code.PublicationConfigurationClass_variant=
-### Missing: BookVersions.Code.PublicationConfigurationClass_variant_hint=
-### Missing: BookVersions.Code.PublicationConfigurationClass_language=
-### Missing: BookVersions.Code.PublicationConfigurationClass_language_hint=
-### Missing: BookVersions.Code.PublicationConfigurationClass_publishOnlyComplete=
-### Missing: BookVersions.Code.PublicationConfigurationClass_publishOnlyComplete_hint=
-### Missing: BookVersions.Code.PublicationConfigurationClass_publishPageOrder=
-### Missing: BookVersions.Code.PublicationConfigurationClass_publishPageOrder_hint=
-### Missing: BookVersions.Code.PublicationConfigurationClass_publishBehaviour=
-### Missing: BookVersions.Code.PublicationConfigurationClass_publishBehaviour_hint=
-### Missing: BookVersions.Code.PublicationConfigurationClass_publishBehaviour_cancel=
-### Missing: BookVersions.Code.PublicationConfigurationClass_publishBehaviour_update=
-### Missing: BookVersions.Code.PublicationConfigurationClass_publishBehaviour_republish=
-### Missing: BookVersions.Code.PublicationConfigurationClass_title=
-### Missing: BookVersions.Code.PublicationConfigurationClass_title_hint=
-### Missing: BookVersions.Code.PublicationConfigurationClass_description=
-### Missing: BookVersions.Code.PublicationConfigurationClass_description_hint=
-### Missing: BookVersions.Code.PublicationConfigurationClass.sourceLocationLabel=
-### Missing: BookVersions.Code.PublicationConfigurationClass.sourceLocationHint=
-### Missing: BookVersions.Code.PublicationConfigurationClass.destinationSpaceLabel=
-### Missing: BookVersions.Code.PublicationConfigurationClass.destinationSpaceHint=
-### Missing: BookVersions.Code.PublicationConfigurationClass.destinationLocationLabel=
-### Missing: BookVersions.Code.PublicationConfigurationClass.destinationLocationHint=
-### Missing: BookVersions.Code.PublicationConfigurationClass.destinationWikiLabel=
-### Missing: BookVersions.Code.PublicationConfigurationClass.destinationWikiHint=
+BookVersions.Code.PublicationConfigurationClass_source=Quellseite*
+BookVersions.Code.PublicationConfigurationClass_source_hint=Die oberste Seite der zu veröffentlichenden Baumstruktur, in der Regel die oberste Seite des Buches/der Bibliothek. (Erforderlich)
+BookVersions.Code.PublicationConfigurationClass_destinationSpace=Zielbereich*
+BookVersions.Code.PublicationConfigurationClass_destinationSpace_hint=Der Bereich, in dem der Inhalt veröffentlicht wird. (Erforderlich)
+BookVersions.Code.PublicationConfigurationClass_version=Version*
+BookVersions.Code.PublicationConfigurationClass_version_hint=Die zu veröffentlichende Version. (Erforderlich)
+BookVersions.Code.PublicationConfigurationClass_variant=Variante
+BookVersions.Code.PublicationConfigurationClass_variant_hint=Die zu veröffentlichende Variante.
+BookVersions.Code.PublicationConfigurationClass_language=Sprache
+BookVersions.Code.PublicationConfigurationClass_language_hint=Die zu veröffentlichende Sprache. Wenn keine ausgewählt ist, werden alle „übersetzten“ Sprachen veröffentlicht.
+BookVersions.Code.PublicationConfigurationClass_publishOnlyComplete=Nur „vollständige“ Seiten veröffentlichen
+BookVersions.Code.PublicationConfigurationClass_publishOnlyComplete_hint=Nur die Seiten mit dem Status „Vollständig“ veröffentlichen. Wenn dieses Kontrollkästchen nicht aktiviert ist, werden alle Status veröffentlicht.
+BookVersions.Code.PublicationConfigurationClass_publishPageOrder=Seitenreihenfolge der Veröffentlichung
+BookVersions.Code.PublicationConfigurationClass_publishPageOrder_hint=Die Seitenreihenfolge aus der Quelle veröffentlichen, wodurch die Reihenfolge im Ziel möglicherweise überschrieben wird. Ist diese Option nicht aktiviert, bleibt die Reihenfolge im Ziel unverändert.
+BookVersions.Code.PublicationConfigurationClass_publishBehaviour=Veröffentlichungsverhalten
+BookVersions.Code.PublicationConfigurationClass_publishBehaviour_hint=Welches Verhalten soll angewendet werden, wenn der Zielbereich bereits gefüllt ist? „Abbrechen“, um die Veröffentlichung zu unterbinden; „Aktualisieren“, um vorhandene Seiten zu aktualisieren, neue Seiten aus der Quelle hinzuzufügen, aber Seiten, die in der Quelle gelöscht wurden, im Zielbereich beizubehalten. In der Quelle als gelöscht markierte Seiten werden aus dem Zielbereich entfernt; „Erneut veröffentlichen“, um den Zielbereich zurückzusetzen.
+BookVersions.Code.PublicationConfigurationClass_publishBehaviour_cancel=Abbrechen
+BookVersions.Code.PublicationConfigurationClass_publishBehaviour_update=Aktualisieren
+BookVersions.Code.PublicationConfigurationClass_publishBehaviour_republish=Erneut veröffentlichen
+BookVersions.Code.PublicationConfigurationClass_title=Ziel-Titel
+BookVersions.Code.PublicationConfigurationClass_title_hint=Der Titel, der auf der Ziel-Stammseite festgelegt wird. Ist das Feld leer, wird der Titel der Quellseite verwendet.
+BookVersions.Code.PublicationConfigurationClass_description=Beschreibung
+BookVersions.Code.PublicationConfigurationClass_description_hint=Die Beschreibung der Konfiguration
+BookVersions.Code.PublicationConfigurationClass.sourceLocationLabel=Speicherort
+BookVersions.Code.PublicationConfigurationClass.sourceLocationHint=Speicherort in der Seitenhierarchie, der als Quelle für die Veröffentlichung dient
+BookVersions.Code.PublicationConfigurationClass.destinationSpaceLabel=Name des Bereichs
+BookVersions.Code.PublicationConfigurationClass.destinationSpaceHint=(optional) Wenn Sie einen neuen Bereich mit dem angegebenen Namen erstellen möchten.
+BookVersions.Code.PublicationConfigurationClass.destinationLocationLabel=Ziel
+BookVersions.Code.PublicationConfigurationClass.destinationLocationHint=Ort in der Seitenhierarchie, der als Ziel der Veröffentlichung dienen soll
+BookVersions.Code.PublicationConfigurationClass.destinationWikiLabel=Wiki-Name
+BookVersions.Code.PublicationConfigurationClass.destinationWikiHint=Name des Wikis für das Veröffentlichungsziel
 
 # Sheet
-### Missing: BookVersions.Code.VersionClassSheet.versionConfiguration=
-### Missing: BookVersions.Code.VersionClassSheet.librariesConfiguration=
-### Missing: BookVersions.Code.VersionClassSheet.newConfiguration=
-### Missing: BookVersions.Code.VariantClassSheet.associatedPages=
-### Missing: BookVersions.Code.VariantClassSheet.variantConfiguration=
-### Missing: BookVersions.Code.VersionClassSheet.deleteLibrairieConfiguration=
-### Missing: BookVersions.Code.DeletedContentClassSheet.titlePrefix=
-### Missing: BookVersions.Code.DeletedContentClassSheet.warning=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.nextButton=
+BookVersions.Code.VersionClassSheet.versionConfiguration=Versionskonfiguration
+BookVersions.Code.VersionClassSheet.librariesConfiguration=Bibliothekskonfiguration
+BookVersions.Code.VersionClassSheet.newConfiguration=Neue Konfiguration
+BookVersions.Code.VariantClassSheet.associatedPages=Zugehörige Seiten
+BookVersions.Code.VariantClassSheet.variantConfiguration=Variantenkonfiguration
+BookVersions.Code.VersionClassSheet.deleteLibrairieConfiguration=Löschen
+BookVersions.Code.DeletedContentClassSheet.titlePrefix=GELÖSCHT: 
+BookVersions.Code.DeletedContentClassSheet.warning=Dieser Inhalt wurde als gelöscht markiert. Er wird nicht veröffentlicht.
+BookVersions.Code.PublicationConfigurationSheet.nextButton=Vorschau
 
 # -- Publication canceled messages
-### Missing: BookVersions.Code.PublicationConfigurationSheet.previewTitle=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.publicationCanceledBecauseTargetIsNotEmpty=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.existingDocuments=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.existingDocumentLine=
+BookVersions.Code.PublicationConfigurationSheet.previewTitle=Vorschau der Veröffentlichung
+BookVersions.Code.PublicationConfigurationSheet.publicationCanceledBecauseTargetIsNotEmpty=Die Veröffentlichung wird abgebrochen, da der Zielspeicherplatz **{0}** nicht leer ist.
+BookVersions.Code.PublicationConfigurationSheet.existingDocuments=**Vorhandene Dokumente:**
+BookVersions.Code.PublicationConfigurationSheet.existingDocumentLine=* {0}
 # -- Publication republish / removal
-### Missing: BookVersions.Code.PublicationConfigurationSheet.publicationWillRepublish=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.theFollowingDocumentsWillBeRemoved=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.docWouldBeRemoved=
+BookVersions.Code.PublicationConfigurationSheet.publicationWillRepublish=Die Veröffentlichung wird erneut im Zielbereich **{0}** veröffentlicht
+BookVersions.Code.PublicationConfigurationSheet.theFollowingDocumentsWillBeRemoved=Die folgenden Dokumente werden entfernt:
+BookVersions.Code.PublicationConfigurationSheet.docWouldBeRemoved=Zu entfernendes Dokument: {0}
 # -- Publishing from / variant
-### Missing: BookVersions.Code.PublicationConfigurationSheet.publishingFrom=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.usingVariant=
+BookVersions.Code.PublicationConfigurationSheet.publishingFrom=Veröffentlichung aus: **{0}**
+BookVersions.Code.PublicationConfigurationSheet.usingVariant=Verwendung der Variante: {0}
 # -- Library usage / warnings
-### Missing: BookVersions.Code.PublicationConfigurationSheet.usingLibrary=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.publishedAt=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.libraryIsNotPublished=
+BookVersions.Code.PublicationConfigurationSheet.usingLibrary=Verwendung der Bibliothek: **{0}** (Version: {1})
+BookVersions.Code.PublicationConfigurationSheet.publishedAt=Veröffentlicht am: {0}
+BookVersions.Code.PublicationConfigurationSheet.libraryIsNotPublished=Die Bibliothek **{0}** (Version: {1}) ist nicht veröffentlicht! Inhalte, die diese Bibliothek enthalten, funktionieren möglicherweise nicht wie erwartet.
 # -- Pages to process
-### Missing: BookVersions.Code.PublicationConfigurationSheet.pagesToProcess=
+BookVersions.Code.PublicationConfigurationSheet.pagesToProcess=**Zu verarbeitende Seiten:**
 # -- Page publication lines
-### Missing: BookVersions.Code.PublicationConfigurationSheet.pageWillBePublished=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.contentFrom=
+BookVersions.Code.PublicationConfigurationSheet.pageWillBePublished=✅ **{0}** → {1}
+BookVersions.Code.PublicationConfigurationSheet.contentFrom=(Inhalt aus: {0})
 # -- Deleted or skipped pages
-### Missing: BookVersions.Code.PublicationConfigurationSheet.pageIsMarkedDeleted=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.pageHasSomething=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.pageIsMarkedDeletedRemoveFromTarget=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.pageWillBeDeletedFromTarget=
+BookVersions.Code.PublicationConfigurationSheet.pageIsMarkedDeleted=❌️ **{0}**: Die Seite wird ignoriert, da sie als gelöscht markiert ist
+BookVersions.Code.PublicationConfigurationSheet.pageHasSomething=❌️ **{0}**: {1}
+BookVersions.Code.PublicationConfigurationSheet.pageIsMarkedDeletedRemoveFromTarget=🗑️ **{0}** ist als gelöscht markiert – Ziel wird entfernt: {1}
+BookVersions.Code.PublicationConfigurationSheet.pageWillBeDeletedFromTarget=🗑️ **{0}** wird gelöscht (Quelle: {1})
 # -- Deletion summary
-### Missing: BookVersions.Code.PublicationConfigurationSheet.documentsToBeRemovedFromTarget=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.pageOrderWillBePreserved=
+BookVersions.Code.PublicationConfigurationSheet.documentsToBeRemovedFromTarget=**Aus dem Ziel zu entfernende Dokumente ({0}):**
+BookVersions.Code.PublicationConfigurationSheet.pageOrderWillBePreserved=**Die Seitenreihenfolge bleibt in der Publikation erhalten.**
 # -- Legend
-### Missing: BookVersions.Code.PublicationConfigurationSheet.legend=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.legendWillBePublished=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.legendWillBeSkipped=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.legendWillBeDeleted=
+BookVersions.Code.PublicationConfigurationSheet.legend=**Legende:**
+BookVersions.Code.PublicationConfigurationSheet.legendWillBePublished=* ✅ – Seite wird veröffentlicht
+BookVersions.Code.PublicationConfigurationSheet.legendWillBeSkipped=* ❌️ – Seite wird übersprungen
+BookVersions.Code.PublicationConfigurationSheet.legendWillBeDeleted=* 🗑️ – Seite/Dokument wird gelöscht
 # -- No preview data
-### Missing: BookVersions.Code.PublicationConfigurationSheet.noPreviewDataAvailable=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.previewContinueButton=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.pageNotInPublishedVariant=
+BookVersions.Code.PublicationConfigurationSheet.noPreviewDataAvailable=Keine Vorschau-Daten verfügbar.
+BookVersions.Code.PublicationConfigurationSheet.previewContinueButton=Veröffentlichen
+BookVersions.Code.PublicationConfigurationSheet.pageNotInPublishedVariant=❌️ **{0}** Die Seite wird ignoriert, da sie nicht mit der veröffentlichten Variante verknüpft ist.
 
 # Publication process
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.nullParameter=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.start=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.loadConfiguration=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.noConfig=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.noSource=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.noTarget=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.noBehaviour=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.targetNotEmpty=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.targetEmptying=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.sourceNotExist=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.startPublication=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.refNotFound=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.startPagePublication=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.notCollection=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.noContent=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.targetRefNotComputed=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.copyPage=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.transformContent=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.endPagePublication=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.removeMarkedAsDeleted=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.updatePageOrder=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.endPublication=
-### Missing: BookVersions.DefaultBookVersionsManager.isToBePublished.markedAsDeleted=
-### Missing: BookVersions.DefaultBookVersionsManager.isToBePublished.status=
-### Missing: BookVersions.DefaultBookVersionsManager.isToBePublished.variantPage=
-### Missing: BookVersions.DefaultBookVersionsManager.isToBePublished.otherVariant=
-### Missing: BookVersions.DefaultBookVersionsManager.isToBePublished.noTranslation=
-### Missing: BookVersions.DefaultBookVersionsManager.isToBePublished.noCompleteTranslation=
-### Missing: BookVersions.DefaultBookVersionsManager.transformSiblingBookPage.notInCollection=
-### Missing: BookVersions.DefaultBookVersionsManager.transformLibrary.notPublished=
+BookVersions.DefaultBookVersionsManager.publishInternal.nullParameter=Einer der angegebenen Parameter ist null.
+BookVersions.DefaultBookVersionsManager.publishInternal.start=Veröffentlichungsauftrag mit der Konfiguration [{0}] wird gestartet.
+BookVersions.DefaultBookVersionsManager.publishInternal.loadConfiguration=Konfiguration wird geladen.
+BookVersions.DefaultBookVersionsManager.publishInternal.noConfig=Keine Konfiguration angegeben (null oder leer).
+BookVersions.DefaultBookVersionsManager.publishInternal.noSource=Die Quelle konnte nicht aus [{0}] gelesen werden.
+BookVersions.DefaultBookVersionsManager.publishInternal.noTarget=Das Ziel konnte nicht aus [{0}] gelesen werden.
+BookVersions.DefaultBookVersionsManager.publishInternal.noBehaviour=Das Verhalten konnte nicht aus [{0}] gelesen werden.
+BookVersions.DefaultBookVersionsManager.publishInternal.targetNotEmpty=Die Veröffentlichung wurde abgebrochen, da der Zielspeicherplatz [{0}] nicht leer ist.
+BookVersions.DefaultBookVersionsManager.publishInternal.targetEmptying=Der Zielspeicherplatz [{}] ist nicht leer. Alle Dokumente werden entfernt.
+BookVersions.DefaultBookVersionsManager.publishInternal.sourceNotExist=Die angegebene Quellenreferenz [{}] existiert nicht.
+BookVersions.DefaultBookVersionsManager.publishInternal.startPublication=Veröffentlichung starten.
+BookVersions.DefaultBookVersionsManager.publishInternal.refNotFound=Die Seitenveröffentlichung wurde abgebrochen, da die Referenz nicht gefunden werden konnte.
+BookVersions.DefaultBookVersionsManager.publishInternal.startPagePublication=Seitenveröffentlichung starten {0}/{1}: [{2}]
+BookVersions.DefaultBookVersionsManager.publishInternal.notCollection=Die Seite wird nicht als Buch-/Bibliotheksseite erkannt.
+BookVersions.DefaultBookVersionsManager.publishInternal.noContent=Die Seitenveröffentlichung wurde abgebrochen, da der zu veröffentlichende Inhalt nicht gefunden werden konnte.
+BookVersions.DefaultBookVersionsManager.publishInternal.targetRefNotComputed=Die Seitenveröffentlichung wurde abgebrochen, da die veröffentlichte Referenz nicht berechnet werden kann.
+BookVersions.DefaultBookVersionsManager.publishInternal.copyPage=Seite [{0}] wird nach [{1}] kopiert.
+BookVersions.DefaultBookVersionsManager.publishInternal.transformContent=Inhalt wird für die Veröffentlichung umgewandelt.
+BookVersions.DefaultBookVersionsManager.publishInternal.endPagePublication=Veröffentlichung der Seite [{0}] abgeschlossen.
+BookVersions.DefaultBookVersionsManager.publishInternal.removeMarkedAsDeleted=Die als gelöscht markierten Seiten werden aus dem Zielbereich entfernt.
+BookVersions.DefaultBookVersionsManager.publishInternal.updatePageOrder=Seitenreihenfolge wird aktualisiert.
+BookVersions.DefaultBookVersionsManager.publishInternal.endPublication=Veröffentlichung im Bereich [{0}] abgeschlossen.
+BookVersions.DefaultBookVersionsManager.isToBePublished.markedAsDeleted=Die Seite [{0}] wird ignoriert, da sie als gelöscht markiert ist.
+BookVersions.DefaultBookVersionsManager.isToBePublished.status=Die Seite [{0}] wird ignoriert, da ihr Status [{1}] ist und nur [{2}] Seiten veröffentlicht werden.
+BookVersions.DefaultBookVersionsManager.isToBePublished.variantPage=Die Seite [{0}] wird ignoriert, da sie mit Varianten verknüpft ist.
+BookVersions.DefaultBookVersionsManager.isToBePublished.otherVariant=Die Seite [{0}] wird ignoriert, da sie nicht mit der veröffentlichten Variante [{1}] verknüpft ist.
+BookVersions.DefaultBookVersionsManager.isToBePublished.noTranslation=Seite [{0}] wird ignoriert, da sie nicht mit der veröffentlichten Sprache [{1}] verknüpft ist.
+BookVersions.DefaultBookVersionsManager.isToBePublished.noCompleteTranslation=Seite [{0}] wird ignoriert, da die Übersetzung keinen Status [{1}] hat.
+BookVersions.DefaultBookVersionsManager.transformSiblingBookPage.notInCollection=Das Makro [{0}] verweist auf die Seite [{1}], deren Sammlung [{2}] nicht mit der aktuell veröffentlichten Sammlung [{3}] übereinstimmt. Das Makro wird ignoriert. Auf der veröffentlichten Seite wird wahrscheinlich nichts angezeigt.
+BookVersions.DefaultBookVersionsManager.transformLibrary.notPublished=Die Bibliothek [{0}] wurde nicht veröffentlicht. Das Makro wird ignoriert.
 
 # Creation templates
-### Missing: BookVersions.template.newBook=
-### Missing: BookVersions.template.newLibrary=
-### Missing: BookVersions.template.description=
-### Missing: BookVersions.template.title=
+BookVersions.template.newBook=Neues Buch erstellen.
+BookVersions.template.newLibrary=Neue Bibliothek erstellen.
+BookVersions.template.description=Beschreibung
+BookVersions.template.title=Titel
 
 # Page Creation form
-### Missing: BookVersions.creationForm.newPage=
-### Missing: BookVersions.creationForm.pageTitle=
-### Missing: BookVersions.creationForm.pageTitle.hint=
-### Missing: BookVersions.creationForm.pageUnversioned=
-### Missing: BookVersions.creationForm.pageUnversioned.hint=
-### Missing: BookVersions.creationForm.create=
-### Missing: BookVersions.creationForm.add=
-### Missing: BookVersions.creationForm.name=
-### Missing: BookVersions.creationForm.libTitle=
+BookVersions.creationForm.newPage=Neue Seite
+BookVersions.creationForm.pageTitle=Seitentitel
+BookVersions.creationForm.pageTitle.hint=Der Titel der Seite.
+BookVersions.creationForm.pageUnversioned=Nicht versionierter Inhalt
+BookVersions.creationForm.pageUnversioned.hint=Wenn die Seite nicht versioniert ist, ist die Option zum Erstellen unterschiedlicher Inhalte für mehrere Versionen deaktiviert, und in allen Versionen des Buches wird derselbe Inhalt der Seite angezeigt. Es ist jedoch möglich, wieder zu versioniertem Inhalt zurückzukehren.
+BookVersions.creationForm.create=Erstellen
+BookVersions.creationForm.add=Hinzufügen
+BookVersions.creationForm.name=Name
+BookVersions.creationForm.libTitle=Bibliotheksname
 
 # Version Creation form
-### Missing: BookVersions.creationForm.newVersion=
+BookVersions.creationForm.newVersion=Neue Version
 
 # Variant Creation form
-### Missing: BookVersions.creationForm.newVariant=
+BookVersions.creationForm.newVariant=Neue Variante
 
 # Library Creation form
-### Missing: BookVersions.creationForm.newLibrary=
+BookVersions.creationForm.newLibrary=Bibliothek hinzufügen
 
 # Publication Configuration Creation form
-### Missing: BookVersions.creationForm.newPublicationConfiguration=
+BookVersions.creationForm.newPublicationConfiguration=Publikationskonfiguration hinzufügen
 
 # Navigation menu
-### Missing: BookVersions.navMenu.versionSelect=
-### Missing: BookVersions.navMenu.versionSelect.hint=
-### Missing: BookVersions.navMenu.versionSelect.noContent=
-### Missing: BookVersions.navMenu.versionSelect.unversioned=
-### Missing: BookVersions.navMenu.versionSelect.tooltip.inherited=
-### Missing: BookVersions.navMenu.versionSelect.tooltip.versionned=
-### Missing: BookVersions.navMenu.versionSelect.tooltip.noVersion=
-### Missing: BookVersions.navMenu.versionSelect.tooltip.noContent=
-### Missing: BookVersions.navMenu.createVersionWithLink=
-### Missing: BookVersions.navMenu.variantSelect=
-### Missing: BookVersions.navMenu.pageIsNotAssociated=
-### Missing: BookVersions.navMenu.pageRestrictedTo=
-### Missing: BookVersions.navMenu.variantSelect.tooltip.restricted=
-### Missing: BookVersions.navMenu.variantSelect.tooltip.notAssociatedVariantSelect=
-### Missing: BookVersions.navMenu.variantSelect.tooltip.notAssociatedNoVariantSelected=
-### Missing: BookVersions.navMenu.associateVariantWithLink=
-### Missing: BookVersions.navMenu.languageSelect=
-### Missing: BookVersions.navMenu.noLanguageSelected=
-### Missing: BookVersions.navMenu.languageSelected=
-### Missing: BookVersions.navMenu.languageDefaultSelected=
-### Missing: BookVersions.navMenu.languageSelect.tooltip.languageSelected=
-### Missing: BookVersions.navMenu.languageSelect.tooltip.languageDefaultSelected=
-### Missing: BookVersions.navMenu.languageSelect.tooltip.noLanguageSelected=
-### Missing: BookVersions.navMenu.translationStatus.not_translated=
-### Missing: BookVersions.navMenu.translationStatus.outdated=
-### Missing: BookVersions.navMenu.translationStatus.translated=
-### Missing: BookVersions.navMenu.translationStatus.tooltip.not_translated=
-### Missing: BookVersions.navMenu.translationStatus.tooltip.outdated=
-### Missing: BookVersions.navMenu.translationStatus.tooltip.translated=
+BookVersions.navMenu.versionSelect=Version
+BookVersions.navMenu.versionSelect.hint=Inhaltsversion: {0}
+BookVersions.navMenu.versionSelect.noContent=Nicht verfügbar
+BookVersions.navMenu.versionSelect.unversioned=Ohne Version
+BookVersions.navMenu.versionSelect.tooltip.inherited=Für diese Seite ist in der Version {0} kein Inhalt verfügbar, daher wird der von der Version {1} übernommene Inhalt angezeigt.
+BookVersions.navMenu.versionSelect.tooltip.versionned=Der Inhalt dieser Seite stammt aus der Version {0}.
+BookVersions.navMenu.versionSelect.tooltip.noVersion=Diese Seite ist nicht versioniert, daher ist der Inhalt für jede Version identisch.
+BookVersions.navMenu.versionSelect.tooltip.noContent=Die Seite ist versioniert, enthält jedoch keinen Inhalt für die Version {0} oder vorhergehende Versionen, daher wird kein Inhalt angezeigt.
+BookVersions.navMenu.createVersionWithLink=Inhalt für Version {0}
+BookVersions.navMenu.variantSelect=Variante
+BookVersions.navMenu.pageIsNotAssociated=Nicht mit einer Variante verknüpft
+BookVersions.navMenu.pageRestrictedTo=Beschränkt auf Variante(n): {0}
+BookVersions.navMenu.variantSelect.tooltip.restricted=Seite beschränkt auf Variante(n): {0}. Diese Seite wird nur für diese Variante(n) veröffentlicht.
+BookVersions.navMenu.variantSelect.tooltip.notAssociatedVariantSelect=Seite ist mit keiner Variante verknüpft. Wenn die Seite das Makro „Variante“ verwendet, wird nur der Inhalt für die Variante {0} angezeigt.
+BookVersions.navMenu.variantSelect.tooltip.notAssociatedNoVariantSelected=Seite ist mit keiner Variante verknüpft. Wenn die Seite das Makro verwendet, wird der Inhalt aller dieser Makros angezeigt.
+BookVersions.navMenu.associateVariantWithLink=Seite mit Variante {0} verknüpfen
+BookVersions.navMenu.languageSelect=Sprache
+BookVersions.navMenu.noLanguageSelected=Sprache: keine
+BookVersions.navMenu.languageSelected=Sprache: {0}
+BookVersions.navMenu.languageDefaultSelected=Sprache: {0} (Standard)
+BookVersions.navMenu.languageSelect.tooltip.languageSelected=Der Inhalt wird in der Sprache {0} angezeigt. Inhalte außerhalb des Sprachmakros werden ebenfalls angezeigt.
+BookVersions.navMenu.languageSelect.tooltip.languageDefaultSelected=Der Inhalt wird in der Standardsprache {0} angezeigt. Inhalte außerhalb des Sprachmakros werden ebenfalls angezeigt.
+BookVersions.navMenu.languageSelect.tooltip.noLanguageSelected=Inhalte außerhalb des Makros „Inhaltsübersetzung“ und innerhalb des Makros für die Standardsprache werden angezeigt.
+BookVersions.navMenu.translationStatus.not_translated=Übersetzungsstatus: erforderlich
+BookVersions.navMenu.translationStatus.outdated=Übersetzungsstatus: veraltet
+BookVersions.navMenu.translationStatus.translated=Übersetzungsstatus: fertig
+BookVersions.navMenu.translationStatus.tooltip.not_translated=Die Übersetzung ist im Übersetzungsmakro als erforderlich markiert.
+BookVersions.navMenu.translationStatus.tooltip.outdated=Die Übersetzung ist im Übersetzungsmakro als veraltet markiert.
+BookVersions.navMenu.translationStatus.tooltip.translated=Die Übersetzung ist im Übersetzungsmakro als fertig markiert.
 
 # Administration menu
-### Missing: BookVersions.adminMenu.title=
-### Missing: BookVersions.adminMenu.manage=
-### Missing: BookVersions.adminMenu.manageVersions=
-### Missing: BookVersions.adminMenu.manageVariants=
-### Missing: BookVersions.adminMenu.manageLibraries=
-### Missing: BookVersions.adminMenu.manageLanguages=
-### Missing: BookVersions.adminMenu.pageActions=
-### Missing: BookVersions.adminMenu.overview=
-### Missing: BookVersions.adminMenu.addPageToVariant=
-### Missing: BookVersions.adminMenu.removePageFromVariant=
-### Missing: BookVersions.adminMenu.publishLable=
-### Missing: BookVersions.navMenu.convertToUnversioned=
-### Missing: BookVersions.navMenu.convertToVersioned=
-### Missing: BookVersions.adminMenu.statusLable=
-### Missing: BookVersions.adminMenu.publish=
-### Missing: BookVersions.navMenu.markDeleted=
-### Missing: BookVersions.navMenu.unmarkDeleted=
-### Missing: BookVersions.navMenu.deleteVersion=
-### Missing: BookVersions.navMenu.deleteAllVersions=
-### Missing: BookVersions.navMenu.deletePage=
-### Missing: BookVersions.navMenu.noLanguageSelected=
-### Missing: BookVersions.navMenu.defaultLanguage=
-### Missing: BookVersions.adminMenu.librariesText=
-### Missing: BookVersions.adminMenu.libraries.showPagesBtn=
-### Missing: BookVersions.adminMenu.libraries.macrosPagesListHeading=
-### Missing: BookVersions.adminMenu.libraries.noMacroUsingPage=
+BookVersions.adminMenu.title=Versionen
+BookVersions.adminMenu.manage=Verwalten
+BookVersions.adminMenu.manageVersions=Versionen
+BookVersions.adminMenu.manageVariants=Varianten
+BookVersions.adminMenu.manageLibraries=Bibliotheken
+BookVersions.adminMenu.manageLanguages=Sprachen
+BookVersions.adminMenu.pageActions=Seitenaktionen
+BookVersions.adminMenu.overview=Übersicht
+BookVersions.adminMenu.addPageToVariant=Seite mit Variante {0} verknüpfen
+BookVersions.adminMenu.removePageFromVariant=Verknüpfung der Seite mit Variante {0} aufheben
+BookVersions.adminMenu.publishLable=Veröffentlichung
+BookVersions.navMenu.convertToUnversioned=In nicht versionierte Version umwandeln
+BookVersions.navMenu.convertToVersioned=In versionierte Version umwandeln
+BookVersions.adminMenu.statusLable=Status
+BookVersions.adminMenu.publish=Veröffentlichung
+BookVersions.navMenu.markDeleted=Als gelöscht markieren
+BookVersions.navMenu.unmarkDeleted=Nicht mehr als gelöscht markieren
+BookVersions.navMenu.deleteVersion=Diese Version löschen
+BookVersions.navMenu.deleteAllVersions=Alle Versionen löschen
+BookVersions.navMenu.deletePage=Diese Seite löschen
+BookVersions.navMenu.noLanguageSelected=Sprache: keine
+BookVersions.navMenu.defaultLanguage=Standardsprache.
+BookVersions.adminMenu.librariesText=Die folgenden Bibliotheken sind für die Verwendung im aktuellen Buch konfiguriert. Um die Konfiguration zu bearbeiten, rufen Sie die Verwaltungsseite {0}Versionen des Buches{1} auf und bearbeiten Sie die Versionsseiten.
+BookVersions.adminMenu.libraries.showPagesBtn=Zugehörige Seiten anzeigen
+BookVersions.adminMenu.libraries.macrosPagesListHeading=Seiten, die das Bibliotheksmakro enthalten
+BookVersions.adminMenu.libraries.noMacroUsingPage=Keine Seite verwendet dieses Bibliotheksmakro.
 
 # PageSheet content
-### Missing: BookVersion.pageSheet.nocontent=
+BookVersion.pageSheet.nocontent=Für diese Version ist kein Inhalt vorhanden
 
 # Admin live data values
-### Missing: BookVersions.adminLD.version=
-### Missing: BookVersions.adminLD.variant=
-### Missing: BookVersions.adminLD.library=
+BookVersions.adminLD.version=Version
+BookVersions.adminLD.variant=Variante
+BookVersions.adminLD.library=Bibliothek
 ### Missing: BookVersions.adminLD.emptyvalue=
-### Missing: BookVersions.adminLD.doc.title=
-### Missing: BookVersions.adminLD.doc.creationDate=
-### Missing: BookVersions.adminLD.doc.date=
-### Missing: BookVersions.adminLD.doc.libraryReference=
-### Missing: BookVersions.adminLD.doc.libraryVersionReference=
-### Missing: BookVersions.adminLD.doc.precedingVersionReference=
-### Missing: BookVersions.adminLD.description=
-### Missing: BookVersions.adminLD._actions=
+BookVersions.adminLD.doc.title=Titel
+BookVersions.adminLD.doc.creationDate=Erstellungsdatum
+BookVersions.adminLD.doc.date=Letzte Bearbeitung
+BookVersions.adminLD.doc.libraryReference=Bibliothek
+BookVersions.adminLD.doc.libraryVersionReference=Bibliotheksversion
+BookVersions.adminLD.doc.precedingVersionReference=Vorherige Version
+BookVersions.adminLD.description=Beschreibung
+BookVersions.adminLD._actions=Aktionen
 
 # Variants linked pages Admin UI
-### Missing: BookVersions.variants.linkedPagesListHeading=
-### Missing: BookVersions.variants.macrosPagesListHeading=
-### Missing: BookVersions.variants.noLinkedPage=
-### Missing: BookVersions.variants.noMacroUsingPage=
-### Missing: BookVersions.variants.showPagesForVariant=
-### Missing: BookVersions.variants.loadPagesBtn=
+BookVersions.variants.linkedPagesListHeading=Mit der ausgewählten Variante verknüpfte Seiten
+BookVersions.variants.macrosPagesListHeading=Seiten, die das Varianten-Makro enthalten
+BookVersions.variants.noLinkedPage=Es sind keine Seiten mit dieser Variante verknüpft.
+BookVersions.variants.noMacroUsingPage=Keine Seiten verwenden dieses Varianten-Makro.
+BookVersions.variants.showPagesForVariant=Verknüpfte Seiten für Variante anzeigen: 
+BookVersions.variants.loadPagesBtn=Zugehörige Seiten anzeigen
 
 # Library include macro
-### Missing: rendering.macro.includeLibrary.name=
-### Missing: rendering.macro.includeLibrary.description=
-### Missing: rendering.macro.includeLibrary.parameter.keyReference.name=
-### Missing: rendering.macro.includeLibrary.parameter.keyReference.description=
+rendering.macro.includeLibrary.name=Bibliothek einbinden (Buchversionen)
+rendering.macro.includeLibrary.description=Inhalt aus einer versionierten Bibliothek einbinden
+rendering.macro.includeLibrary.parameter.keyReference.name=Bibliotheksschlüssel
+rendering.macro.includeLibrary.parameter.keyReference.description=Der Schlüssel einer Bibliothek, aus der der Inhalt abgerufen werden soll
 
 # Excerpt Library include macro
-### Missing: rendering.macro.excerptIncludeLibrary.name=
-### Missing: rendering.macro.excerptIncludeLibrary.description=
-### Missing: rendering.macro.excerptIncludeLibrary.parameter.keyReference.name=
-### Missing: rendering.macro.excerptIncludeLibrary.parameter.keyReference.description=
-### Missing: rendering.macro.excerptIncludeLibrary.parameter.name.name=
-### Missing: rendering.macro.excerptIncludeLibrary.parameter.name.description=
-### Missing: rendering.macro.excerptIncludeLibrary.parameter.nopanel.name=
-### Missing: rendering.macro.excerptIncludeLibrary.parameter.nopanel.description=
-### Missing: rendering.macro.excerptIncludeLibrary.parameter.inline.name=
-### Missing: rendering.macro.excerptIncludeLibrary.parameter.inline.description=
+rendering.macro.excerptIncludeLibrary.name=Bibliothekseinbindung von Auszügen (Buchversionen)
+rendering.macro.excerptIncludeLibrary.description=Bindet Auszüge aus Bibliotheken in die aktuelle Seite ein. Die eingebundenen Seiten müssen das einfache `Auszug`-Makro enthalten. Erfordert die Pro-Makros von XWiki SAS (kostenpflichtige Erweiterung).
+rendering.macro.excerptIncludeLibrary.parameter.keyReference.name=Bibliotheksschlüssel
+rendering.macro.excerptIncludeLibrary.parameter.keyReference.description=Der Schlüssel einer Bibliothek, aus der der Inhalt abgerufen werden soll
+rendering.macro.excerptIncludeLibrary.parameter.name.name=Name
+rendering.macro.excerptIncludeLibrary.parameter.name.description=Der Name des anzuzeigenden Auszugs
+rendering.macro.excerptIncludeLibrary.parameter.nopanel.name=Kein Panel
+rendering.macro.excerptIncludeLibrary.parameter.nopanel.description=Bedienfeld deaktivieren
+rendering.macro.excerptIncludeLibrary.parameter.inline.name=Inline
+rendering.macro.excerptIncludeLibrary.parameter.inline.description=Das Makro im Inline-Modus verwenden. Im Inline-Modus wird der Parameter „Bedienfeld“ ignoriert.
 
 # Content Translation macro
-### Missing: rendering.macro.contentTranslation.name=
-### Missing: rendering.macro.contentTranslation.description=
-### Missing: rendering.macro.contentTranslation.parameter.language.name=
-### Missing: rendering.macro.contentTranslation.parameter.title.name=
-### Missing: rendering.macro.contentTranslation.parameter.title.description=
-### Missing: rendering.macro.contentTranslation.parameter.status.name=
-### Missing: rendering.macro.contentTranslation.parameter.status.description=
-### Missing: rendering.macro.contentTranslation.parameter.isDefault.name=
-### Missing: rendering.macro.contentTranslation.parameter.isDefault.description=
+rendering.macro.contentTranslation.name=Inhaltsübersetzung (Buchversionen)
+rendering.macro.contentTranslation.description=Übersetzten Inhalt hinzufügen
+rendering.macro.contentTranslation.parameter.language.name=Sprache
+rendering.macro.contentTranslation.parameter.title.name=Titel
+rendering.macro.contentTranslation.parameter.title.description=Die Übersetzung des Seitentitels.
+rendering.macro.contentTranslation.parameter.status.name=Status
+rendering.macro.contentTranslation.parameter.status.description=Status der Übersetzung für die aktuelle Sprache. Es werden nur „Übersetzte“ Inhalte veröffentlicht.
+rendering.macro.contentTranslation.parameter.isDefault.name=Ist Standard
+rendering.macro.contentTranslation.parameter.isDefault.description=Wenn wahr, ist die aktuelle Sprache die Standardsprache, die bei der Anzeige des Seiteninhalts verwendet wird.
 
 # Variant macro
-### Missing: rendering.macro.variant.name=
-### Missing: rendering.macro.variant.description=
-### Missing: rendering.macro.variant.parameter.name.name=
-### Missing: rendering.macro.variant.parameter.name.description=
+rendering.macro.variant.name=Inhalte für Varianten (Buchversionen)
+rendering.macro.variant.description=Inhalte für bestimmte Varianten hinzufügen
+rendering.macro.variant.parameter.name.name=Varianten
+rendering.macro.variant.parameter.name.description=Die verschiedenen Varianten, auf die sich der Inhalt bezieht.
 
     # Versions Admin UI
-### Missing: BookVersions.versions.LD.status=
-### Missing: BookVersions.versions.LD.doc.date=
-### Missing: BookVersions.versions.LD.doc.name=
-### Missing: BookVersions.versions.LD.doc.title=
-### Missing: BookVersions.versions.LD.doc.creationDate=
+BookVersions.versions.LD.status=Status
+BookVersions.versions.LD.doc.date=Letzte Bearbeitung
+BookVersions.versions.LD.doc.name=Version
+BookVersions.versions.LD.doc.title=Seitentitel
+BookVersions.versions.LD.doc.creationDate=Erstellungsdatum
 ### Missing: BookVersions.versions.LD.emptyvalue=
-### Missing: BookVersions.versions.LD.confirmDelete=
+BookVersions.versions.LD.confirmDelete=Das Löschen dieser Version führt auch zum Löschen der damit verbundenen Inhaltsseiten. Dazu ist die Berechtigung zum Löschen für das gesamte Buch/die gesamte Bibliothek erforderlich. Sind Sie sicher?
 
 # Overview Admin UI
-### Missing: BookVersions.overview.LD.status=
-### Missing: BookVersions.overview.LD.doc.date=
-### Missing: BookVersions.overview.LD.doc.name=
-### Missing: BookVersions.overview.LD.doc.title=
-### Missing: BookVersions.overview.LD.doc.creationDate=
+BookVersions.overview.LD.status=Status
+BookVersions.overview.LD.doc.date=Letzte Bearbeitung
+BookVersions.overview.LD.doc.name=Version
+BookVersions.overview.LD.doc.title=Seitentitel
+BookVersions.overview.LD.doc.creationDate=Erstellungsdatum
 ### Missing: BookVersions.overview.LD.emptyvalue=
-### Missing: BookVersions.overview.LD.variantsList=
+BookVersions.overview.LD.variantsList=Variantenliste
 
 # Multilingual
-### Missing: BookVersions.languages.warning=
-### Missing: BookVersions.languages.title.missing=
-### Missing: BookVersions.language.select=
-### Missing: BookVersions.Code.MultilingualClass_enabled=
-### Missing: BookVersions.Code.MultilingualClass_supportedLanguages=
+BookVersions.languages.warning=Für die ausgewählte Sprache liegt keine Übersetzung vor.
+BookVersions.languages.title.missing=Für die ausgewählte Sprache liegt kein übersetzter Titel vor.
+BookVersions.language.select=Sprache auswählen ...
+BookVersions.Code.MultilingualClass_enabled=Mehrere Übersetzungssprachen unterstützen
+BookVersions.Code.MultilingualClass_supportedLanguages=Aktivierte Übersetzungssprachen
 
 # Edit inherited content
-### Missing: BookVersions.Code.CustomEditHandler.popupTitle=
-### Missing: BookVersions.Code.CustomEditHandler.popupDescription=
-### Missing: BookVersions.Code.CustomEditHandler.popupSwitchVersion=
-### Missing: BookVersions.Code.CustomEditHandler.popupCreateContentForVersion=
-### Missing: BookVersions.Code.CustomEditHandler.popupCancel=
+BookVersions.Code.CustomEditHandler.popupTitle=Vererbte Inhalte aus {0} bearbeiten
+BookVersions.Code.CustomEditHandler.popupDescription=Der Inhalt für Version {0} ist nicht vorhanden. Sie haben die Möglichkeit, entweder den Inhalt für diese Version zu erstellen oder zu Version {1} zu wechseln.
+BookVersions.Code.CustomEditHandler.popupSwitchVersion=Zu Version {0} wechseln
+BookVersions.Code.CustomEditHandler.popupCreateContentForVersion=Inhalt für Version {0} erstellen
+BookVersions.Code.CustomEditHandler.popupCancel=Abbrechen
 
 # Version delete
-### Missing: BookVersions.Code.CustomVersionDeleteHandler.popupTitle=
-### Missing: BookVersions.Code.CustomVersionDeleteHandler.popupDescription=
-### Missing: BookVersions.Code.CustomVersionDeleteHandler.popupProceed=
-### Missing: BookVersions.Code.CustomVersionDeleteHandler.popupCancel=
+BookVersions.Code.CustomVersionDeleteHandler.popupTitle=Version löschen
+BookVersions.Code.CustomVersionDeleteHandler.popupDescription=Das Löschen dieser Version führt auch zum Löschen der damit verbundenen Inhaltsseiten. Dazu ist die Berechtigung „Löschen“ für das gesamte Buch bzw. die gesamte Bibliothek erforderlich.
+BookVersions.Code.CustomVersionDeleteHandler.popupProceed=Alle löschen
+BookVersions.Code.CustomVersionDeleteHandler.popupCancel=Abbrechen
 
 # Publication progress
-### Missing: BookVersions.Code.PublicationProgress.title=
-### Missing: BookVersions.Code.PublicationProgress.back=
-### Missing: BookVersions.Code.PublicationProgress.goToPublished=
-### Missing: BookVersions.Code.PublicationActionHandler.error.jobCreation=
-### Missing: BookVersions.Code.PublicationActionHandler.error.permission=
+BookVersions.Code.PublicationProgress.title=Veröffentlichungsfortschritt
+BookVersions.Code.PublicationProgress.back=Zurück
+BookVersions.Code.PublicationProgress.goToPublished=Zum Zielbereich wechseln
+BookVersions.Code.PublicationActionHandler.error.jobCreation=Erstellung des Veröffentlichungsauftrags fehlgeschlagen
+BookVersions.Code.PublicationActionHandler.error.permission=Zugriff verweigert
 
 # Set status progress
-### Missing: BookVersions.Code.BookOverview.statusMissing=
-### Missing: BookVersions.Code.BookOverview.changeStatusFailed=
-### Missing: BookVersions.Code.BookOverview.changeStatus=
-### Missing: BookVersions.Code.BookOverview.changeStatusProgress=
-### Missing: BookVersions.Code.BookOverview.statusField=
-### Missing: BookVersions.Code.BookOverview.statusFieldHint=
-### Missing: BookVersions.Code.BookOverview.statusPlaceHolder=
-### Missing: BookVersions.Code.BookOverview.changeStatusBtn=
+BookVersions.Code.BookOverview.statusMissing=Bitte legen Sie einen Statuswert fest, der auf den Seiten gesetzt werden soll
+BookVersions.Code.BookOverview.changeStatusFailed=Batch-Auftrag zum Ändern des Status fehlgeschlagen
+BookVersions.Code.BookOverview.changeStatus=Status ändern
+BookVersions.Code.BookOverview.changeStatusProgress=Fortschritt beim Ändern des Status
+BookVersions.Code.BookOverview.statusField=Neuer Status
+BookVersions.Code.BookOverview.statusFieldHint=Der neue Status, der auf den ausgewählten Seiten gesetzt werden soll
+BookVersions.Code.BookOverview.statusPlaceHolder=Wählen Sie den neuen Status aus
+BookVersions.Code.BookOverview.changeStatusBtn=Status auf ausgewählten Seiten ändern
 
 # Include Sibling Page macro
-### Missing: BookVersions.includesibling.outsidespace=
-### Missing: BookVersions.includesibling.doesnotexist=
-### Missing: rendering.macro.includeSiblingBookPage.name=
-### Missing: rendering.macro.includeSiblingBookPage.description=
-### Missing: rendering.macro.includeSiblingBookPage.parameter.reference.name=
-### Missing: rendering.macro.includeSiblingBookPage.parameter.reference.description=
+BookVersions.includesibling.outsidespace=Das Makro „Geschwister-Seite einbinden“ sollte auf Seiten aus demselben Bereich verweisen.
+BookVersions.includesibling.doesnotexist=Die im Makro „Geschwister-Seite einbinden“ referenzierte Seite existiert nicht.
+rendering.macro.includeSiblingBookPage.name=Geschwister-Buchseite einbinden (Buchversionen)
+rendering.macro.includeSiblingBookPage.description=Seiten desselben Buches in derselben Version einbinden.
+rendering.macro.includeSiblingBookPage.parameter.reference.name=Referenz
+rendering.macro.includeSiblingBookPage.parameter.reference.description=Referenz der einzubindenden Seite.
 </content>
 </xwikidoc>
