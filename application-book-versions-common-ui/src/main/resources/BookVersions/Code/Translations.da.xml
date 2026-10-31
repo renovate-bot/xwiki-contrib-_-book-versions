@@ -37,346 +37,346 @@
   <syntaxId>plain/1.0</syntaxId>
   <hidden>true</hidden>
   <content># Class
-### Missing: BookVersions.Code.VersionClass_precedingVersionReference=
-### Missing: BookVersions.Code.PageStatusClass_status_draft=
-### Missing: BookVersions.Code.PageStatusClass_status_review=
-### Missing: BookVersions.Code.PageStatusClass_status_complete=
-### Missing: BookVersions.Code.PageTranslationClass_status_not_translated=
-### Missing: BookVersions.Code.PageTranslationClass_status_outdated=
-### Missing: BookVersions.Code.PageTranslationClass_status_translated=
+BookVersions.Code.VersionClass_precedingVersionReference=Reference til forrige version
+BookVersions.Code.PageStatusClass_status_draft=Kladde
+BookVersions.Code.PageStatusClass_status_review=Gennemgang
+BookVersions.Code.PageStatusClass_status_complete=Færdig
+BookVersions.Code.PageTranslationClass_status_not_translated=Ikke oversat
+BookVersions.Code.PageTranslationClass_status_outdated=Forældet
+BookVersions.Code.PageTranslationClass_status_translated=Oversat
 
 # Library Reference Class
-### Missing: BookVersions.Code.LibraryReferenceClass_libraryReference=
-### Missing: BookVersions.Code.LibraryReferenceClass_libraryReference.Empty=
+BookVersions.Code.LibraryReferenceClass_libraryReference=Biblioteksreference
+BookVersions.Code.LibraryReferenceClass_libraryReference.Empty=---
 ### Missing: BookVersions.Code.LibraryReferenceClass_libraryReference_=
-### Missing: BookVersions.Code.LibraryReferenceClass_libraryVersionReference=
-### Missing: BookVersions.Code.LibraryReferenceClass_libraryVersionReference.Empty=
+BookVersions.Code.LibraryReferenceClass_libraryVersionReference=Reference til biblioteksversion
+BookVersions.Code.LibraryReferenceClass_libraryVersionReference.Empty=---
 ### Missing: BookVersions.Code.LibraryReferenceClass_libraryVersionReference_=
 
 # Publication Configuration Class
-### Missing: BookVersions.Code.PublicationConfigurationClass_source=
-### Missing: BookVersions.Code.PublicationConfigurationClass_source_hint=
-### Missing: BookVersions.Code.PublicationConfigurationClass_destinationSpace=
-### Missing: BookVersions.Code.PublicationConfigurationClass_destinationSpace_hint=
-### Missing: BookVersions.Code.PublicationConfigurationClass_version=
-### Missing: BookVersions.Code.PublicationConfigurationClass_version_hint=
-### Missing: BookVersions.Code.PublicationConfigurationClass_variant=
-### Missing: BookVersions.Code.PublicationConfigurationClass_variant_hint=
-### Missing: BookVersions.Code.PublicationConfigurationClass_language=
-### Missing: BookVersions.Code.PublicationConfigurationClass_language_hint=
-### Missing: BookVersions.Code.PublicationConfigurationClass_publishOnlyComplete=
-### Missing: BookVersions.Code.PublicationConfigurationClass_publishOnlyComplete_hint=
-### Missing: BookVersions.Code.PublicationConfigurationClass_publishPageOrder=
-### Missing: BookVersions.Code.PublicationConfigurationClass_publishPageOrder_hint=
-### Missing: BookVersions.Code.PublicationConfigurationClass_publishBehaviour=
-### Missing: BookVersions.Code.PublicationConfigurationClass_publishBehaviour_hint=
-### Missing: BookVersions.Code.PublicationConfigurationClass_publishBehaviour_cancel=
-### Missing: BookVersions.Code.PublicationConfigurationClass_publishBehaviour_update=
-### Missing: BookVersions.Code.PublicationConfigurationClass_publishBehaviour_republish=
-### Missing: BookVersions.Code.PublicationConfigurationClass_title=
-### Missing: BookVersions.Code.PublicationConfigurationClass_title_hint=
-### Missing: BookVersions.Code.PublicationConfigurationClass_description=
-### Missing: BookVersions.Code.PublicationConfigurationClass_description_hint=
-### Missing: BookVersions.Code.PublicationConfigurationClass.sourceLocationLabel=
-### Missing: BookVersions.Code.PublicationConfigurationClass.sourceLocationHint=
-### Missing: BookVersions.Code.PublicationConfigurationClass.destinationSpaceLabel=
-### Missing: BookVersions.Code.PublicationConfigurationClass.destinationSpaceHint=
-### Missing: BookVersions.Code.PublicationConfigurationClass.destinationLocationLabel=
-### Missing: BookVersions.Code.PublicationConfigurationClass.destinationLocationHint=
-### Missing: BookVersions.Code.PublicationConfigurationClass.destinationWikiLabel=
-### Missing: BookVersions.Code.PublicationConfigurationClass.destinationWikiHint=
+BookVersions.Code.PublicationConfigurationClass_source=Kildeside*
+BookVersions.Code.PublicationConfigurationClass_source_hint=Den øverste side i det træ, der skal udgives, som regel bogens/bibliotekets øverste side. (Obligatorisk)
+BookVersions.Code.PublicationConfigurationClass_destinationSpace=Målområde*
+BookVersions.Code.PublicationConfigurationClass_destinationSpace_hint=Det område, hvor indholdet bliver udgivet. (Obligatorisk)
+BookVersions.Code.PublicationConfigurationClass_version=Version*
+BookVersions.Code.PublicationConfigurationClass_version_hint=Den version, der skal udgives. (Obligatorisk)
+BookVersions.Code.PublicationConfigurationClass_variant=Variant
+BookVersions.Code.PublicationConfigurationClass_variant_hint=Den variant, der skal udgives.
+BookVersions.Code.PublicationConfigurationClass_language=Sprog
+BookVersions.Code.PublicationConfigurationClass_language_hint=Det sprog, der skal udgives. Hvis der ikke er valgt noget, udgives alle sprog med status "Oversat".
+BookVersions.Code.PublicationConfigurationClass_publishOnlyComplete=Udgiv kun "færdige" sider
+BookVersions.Code.PublicationConfigurationClass_publishOnlyComplete_hint=Udgiv kun sider med status "Færdig". Hvis feltet ikke er markeret, udgives alle statusser.
+BookVersions.Code.PublicationConfigurationClass_publishPageOrder=Udgiv siderækkefølge
+BookVersions.Code.PublicationConfigurationClass_publishPageOrder_hint=Udgiv siderækkefølgen fra kilden, hvilket kan overskrive rækkefølgen i målet. Hvis feltet ikke er markeret, røres rækkefølgen i målet ikke.
+BookVersions.Code.PublicationConfigurationClass_publishBehaviour=Udgivelsesadfærd
+BookVersions.Code.PublicationConfigurationClass_publishBehaviour_hint=Hvad der skal ske, når målområdet allerede har indhold. "Annuller" for ikke at udgive; "Opdater" for at opdatere eksisterende sider og tilføje nye sider fra kilden, men lade sider, der er slettet i kilden, blive i målet. Sider, der er markeret som slettet i kilden, fjernes fra målet; "Udgiv igen" for at nulstille målområdet.
+BookVersions.Code.PublicationConfigurationClass_publishBehaviour_cancel=Annuller
+BookVersions.Code.PublicationConfigurationClass_publishBehaviour_update=Opdater
+BookVersions.Code.PublicationConfigurationClass_publishBehaviour_republish=Udgiv igen
+BookVersions.Code.PublicationConfigurationClass_title=Måltitel
+BookVersions.Code.PublicationConfigurationClass_title_hint=Den titel, der sættes på målets rodside. Hvis feltet er tomt, bruges kildesidens titel.
+BookVersions.Code.PublicationConfigurationClass_description=Beskrivelse
+BookVersions.Code.PublicationConfigurationClass_description_hint=Konfigurationens beskrivelse
+BookVersions.Code.PublicationConfigurationClass.sourceLocationLabel=Placering
+BookVersions.Code.PublicationConfigurationClass.sourceLocationHint=Placeringen i sidehierarkiet, der skal være kilden til udgivelsen
+BookVersions.Code.PublicationConfigurationClass.destinationSpaceLabel=Områdets navn
+BookVersions.Code.PublicationConfigurationClass.destinationSpaceHint=(valgfrit) Hvis du vil oprette et nyt område med det angivne navn.
+BookVersions.Code.PublicationConfigurationClass.destinationLocationLabel=Mål
+BookVersions.Code.PublicationConfigurationClass.destinationLocationHint=Placeringen i sidehierarkiet, der skal være målet for udgivelsen
+BookVersions.Code.PublicationConfigurationClass.destinationWikiLabel=Wikiens navn
+BookVersions.Code.PublicationConfigurationClass.destinationWikiHint=Navnet på den wiki, der er mål for udgivelsen
 
 # Sheet
-### Missing: BookVersions.Code.VersionClassSheet.versionConfiguration=
-### Missing: BookVersions.Code.VersionClassSheet.librariesConfiguration=
-### Missing: BookVersions.Code.VersionClassSheet.newConfiguration=
-### Missing: BookVersions.Code.VariantClassSheet.associatedPages=
-### Missing: BookVersions.Code.VariantClassSheet.variantConfiguration=
-### Missing: BookVersions.Code.VersionClassSheet.deleteLibrairieConfiguration=
-### Missing: BookVersions.Code.DeletedContentClassSheet.titlePrefix=
-### Missing: BookVersions.Code.DeletedContentClassSheet.warning=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.nextButton=
+BookVersions.Code.VersionClassSheet.versionConfiguration=Versionskonfiguration
+BookVersions.Code.VersionClassSheet.librariesConfiguration=Konfiguration af biblioteker
+BookVersions.Code.VersionClassSheet.newConfiguration=Ny konfiguration
+BookVersions.Code.VariantClassSheet.associatedPages=Tilknyttede sider
+BookVersions.Code.VariantClassSheet.variantConfiguration=Variantkonfiguration
+BookVersions.Code.VersionClassSheet.deleteLibrairieConfiguration=Slet
+BookVersions.Code.DeletedContentClassSheet.titlePrefix=SLETTET: 
+BookVersions.Code.DeletedContentClassSheet.warning=Indholdet er markeret som slettet. Det bliver ikke udgivet.
+BookVersions.Code.PublicationConfigurationSheet.nextButton=Eksempel
 
 # -- Publication canceled messages
-### Missing: BookVersions.Code.PublicationConfigurationSheet.previewTitle=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.publicationCanceledBecauseTargetIsNotEmpty=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.existingDocuments=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.existingDocumentLine=
+BookVersions.Code.PublicationConfigurationSheet.previewTitle=Eksempel på udgivelsen
+BookVersions.Code.PublicationConfigurationSheet.publicationCanceledBecauseTargetIsNotEmpty=Udgivelsen annulleres, fordi målområdet **{0}** ikke er tomt.
+BookVersions.Code.PublicationConfigurationSheet.existingDocuments=**Eksisterende sider:**
+BookVersions.Code.PublicationConfigurationSheet.existingDocumentLine=* {0}
 # -- Publication republish / removal
-### Missing: BookVersions.Code.PublicationConfigurationSheet.publicationWillRepublish=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.theFollowingDocumentsWillBeRemoved=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.docWouldBeRemoved=
+BookVersions.Code.PublicationConfigurationSheet.publicationWillRepublish=Udgivelsen udgiver igen til målområdet: **{0}**
+BookVersions.Code.PublicationConfigurationSheet.theFollowingDocumentsWillBeRemoved=Følgende sider fjernes:
+BookVersions.Code.PublicationConfigurationSheet.docWouldBeRemoved=Side, der fjernes: {0}
 # -- Publishing from / variant
-### Missing: BookVersions.Code.PublicationConfigurationSheet.publishingFrom=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.usingVariant=
+BookVersions.Code.PublicationConfigurationSheet.publishingFrom=Udgiver fra: **{0}**
+BookVersions.Code.PublicationConfigurationSheet.usingVariant=Bruger varianten: {0}
 # -- Library usage / warnings
-### Missing: BookVersions.Code.PublicationConfigurationSheet.usingLibrary=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.publishedAt=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.libraryIsNotPublished=
+BookVersions.Code.PublicationConfigurationSheet.usingLibrary=Bruger biblioteket: **{0}** (version: {1})
+BookVersions.Code.PublicationConfigurationSheet.publishedAt=Udgivet: {0}
+BookVersions.Code.PublicationConfigurationSheet.libraryIsNotPublished=Biblioteket **{0}** (version: {1}) er ikke udgivet! Indhold, der medtager biblioteket, virker måske ikke som forventet.
 # -- Pages to process
-### Missing: BookVersions.Code.PublicationConfigurationSheet.pagesToProcess=
+BookVersions.Code.PublicationConfigurationSheet.pagesToProcess=**Sider, der skal behandles:**
 # -- Page publication lines
-### Missing: BookVersions.Code.PublicationConfigurationSheet.pageWillBePublished=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.contentFrom=
+BookVersions.Code.PublicationConfigurationSheet.pageWillBePublished=✅ **{0}** → {1}
+BookVersions.Code.PublicationConfigurationSheet.contentFrom=(indhold fra: {0})
 # -- Deleted or skipped pages
-### Missing: BookVersions.Code.PublicationConfigurationSheet.pageIsMarkedDeleted=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.pageHasSomething=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.pageIsMarkedDeletedRemoveFromTarget=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.pageWillBeDeletedFromTarget=
+BookVersions.Code.PublicationConfigurationSheet.pageIsMarkedDeleted=❌️ **{0}**: Siden ignoreres, fordi den er markeret som slettet
+BookVersions.Code.PublicationConfigurationSheet.pageHasSomething=❌️ **{0}**: {1}
+BookVersions.Code.PublicationConfigurationSheet.pageIsMarkedDeletedRemoveFromTarget=🗑️ **{0}** er markeret som slettet – målet fjernes: {1}
+BookVersions.Code.PublicationConfigurationSheet.pageWillBeDeletedFromTarget=🗑️ **{0}** slettes (kilde: {1})
 # -- Deletion summary
-### Missing: BookVersions.Code.PublicationConfigurationSheet.documentsToBeRemovedFromTarget=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.pageOrderWillBePreserved=
+BookVersions.Code.PublicationConfigurationSheet.documentsToBeRemovedFromTarget=**Sider, der fjernes fra målet ({0}):**
+BookVersions.Code.PublicationConfigurationSheet.pageOrderWillBePreserved=**Siderækkefølgen bevares i udgivelsen.**
 # -- Legend
-### Missing: BookVersions.Code.PublicationConfigurationSheet.legend=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.legendWillBePublished=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.legendWillBeSkipped=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.legendWillBeDeleted=
+BookVersions.Code.PublicationConfigurationSheet.legend=**Forklaring:**
+BookVersions.Code.PublicationConfigurationSheet.legendWillBePublished=* ✅ - Siden udgives
+BookVersions.Code.PublicationConfigurationSheet.legendWillBeSkipped=* ❌️ - Siden springes over
+BookVersions.Code.PublicationConfigurationSheet.legendWillBeDeleted=* 🗑️ - Siden slettes
 # -- No preview data
-### Missing: BookVersions.Code.PublicationConfigurationSheet.noPreviewDataAvailable=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.previewContinueButton=
-### Missing: BookVersions.Code.PublicationConfigurationSheet.pageNotInPublishedVariant=
+BookVersions.Code.PublicationConfigurationSheet.noPreviewDataAvailable=Der er ingen data til eksemplet.
+BookVersions.Code.PublicationConfigurationSheet.previewContinueButton=Udgiv
+BookVersions.Code.PublicationConfigurationSheet.pageNotInPublishedVariant=❌️ **{0}** Siden ignoreres, fordi den ikke er knyttet til den udgivne variant.
 
 # Publication process
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.nullParameter=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.start=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.loadConfiguration=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.noConfig=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.noSource=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.noTarget=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.noBehaviour=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.targetNotEmpty=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.targetEmptying=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.sourceNotExist=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.startPublication=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.refNotFound=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.startPagePublication=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.notCollection=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.noContent=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.targetRefNotComputed=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.copyPage=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.transformContent=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.endPagePublication=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.removeMarkedAsDeleted=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.updatePageOrder=
-### Missing: BookVersions.DefaultBookVersionsManager.publishInternal.endPublication=
-### Missing: BookVersions.DefaultBookVersionsManager.isToBePublished.markedAsDeleted=
-### Missing: BookVersions.DefaultBookVersionsManager.isToBePublished.status=
-### Missing: BookVersions.DefaultBookVersionsManager.isToBePublished.variantPage=
-### Missing: BookVersions.DefaultBookVersionsManager.isToBePublished.otherVariant=
-### Missing: BookVersions.DefaultBookVersionsManager.isToBePublished.noTranslation=
-### Missing: BookVersions.DefaultBookVersionsManager.isToBePublished.noCompleteTranslation=
-### Missing: BookVersions.DefaultBookVersionsManager.transformSiblingBookPage.notInCollection=
-### Missing: BookVersions.DefaultBookVersionsManager.transformLibrary.notPublished=
+BookVersions.DefaultBookVersionsManager.publishInternal.nullParameter=En af de angivne parametre er null.
+BookVersions.DefaultBookVersionsManager.publishInternal.start=Starter udgivelsesjob med konfigurationen [{0}].
+BookVersions.DefaultBookVersionsManager.publishInternal.loadConfiguration=Indlæser konfiguration.
+BookVersions.DefaultBookVersionsManager.publishInternal.noConfig=Der er ikke angivet nogen konfiguration (null eller tom).
+BookVersions.DefaultBookVersionsManager.publishInternal.noSource=Kilden kunne ikke læses fra [{0}].
+BookVersions.DefaultBookVersionsManager.publishInternal.noTarget=Målet kunne ikke læses fra [{0}].
+BookVersions.DefaultBookVersionsManager.publishInternal.noBehaviour=Adfærden kunne ikke læses fra [{0}].
+BookVersions.DefaultBookVersionsManager.publishInternal.targetNotEmpty=Udgivelsen er annulleret, fordi målområdet [{0}] ikke er tomt.
+BookVersions.DefaultBookVersionsManager.publishInternal.targetEmptying=Målområdet [{}] er ikke tomt. Fjerner alle sider.
+BookVersions.DefaultBookVersionsManager.publishInternal.sourceNotExist=Den angivne kildereference [{}] findes ikke.
+BookVersions.DefaultBookVersionsManager.publishInternal.startPublication=Start udgivelsen.
+BookVersions.DefaultBookVersionsManager.publishInternal.refNotFound=Udgivelsen af siden er annulleret, fordi referencen ikke kan findes.
+BookVersions.DefaultBookVersionsManager.publishInternal.startPagePublication=Start udgivelse af side {0}/{1}: [{2}]
+BookVersions.DefaultBookVersionsManager.publishInternal.notCollection=Siden genkendes ikke som en bog- eller biblioteksside.
+BookVersions.DefaultBookVersionsManager.publishInternal.noContent=Udgivelsen af siden er annulleret, fordi det indhold, der skal udgives, ikke kan findes.
+BookVersions.DefaultBookVersionsManager.publishInternal.targetRefNotComputed=Udgivelsen af siden er annulleret, fordi den udgivne reference ikke kan beregnes.
+BookVersions.DefaultBookVersionsManager.publishInternal.copyPage=Kopierer siden [{0}] til [{1}].
+BookVersions.DefaultBookVersionsManager.publishInternal.transformContent=Omdanner indhold til udgivelse.
+BookVersions.DefaultBookVersionsManager.publishInternal.endPagePublication=Udgivelsen af siden [{0}] er afsluttet.
+BookVersions.DefaultBookVersionsManager.publishInternal.removeMarkedAsDeleted=Fjerner de sider, der er markeret som slettet, fra målområdet.
+BookVersions.DefaultBookVersionsManager.publishInternal.updatePageOrder=Opdaterer siderækkefølgen.
+BookVersions.DefaultBookVersionsManager.publishInternal.endPublication=Udgivelsen er afsluttet i området [{0}].
+BookVersions.DefaultBookVersionsManager.isToBePublished.markedAsDeleted=Siden [{0}] ignoreres, fordi den er markeret som slettet.
+BookVersions.DefaultBookVersionsManager.isToBePublished.status=Siden [{0}] ignoreres, fordi dens status er [{1}], og kun sider med status [{2}] udgives.
+BookVersions.DefaultBookVersionsManager.isToBePublished.variantPage=Siden [{0}] ignoreres, fordi den er knyttet til varianter.
+BookVersions.DefaultBookVersionsManager.isToBePublished.otherVariant=Siden [{0}] ignoreres, fordi den ikke er knyttet til den udgivne variant [{1}].
+BookVersions.DefaultBookVersionsManager.isToBePublished.noTranslation=Siden [{0}] ignoreres, fordi den ikke er knyttet til det udgivne sprog [{1}].
+BookVersions.DefaultBookVersionsManager.isToBePublished.noCompleteTranslation=Siden [{0}] ignoreres, fordi oversættelsen ikke har status [{1}].
+BookVersions.DefaultBookVersionsManager.transformSiblingBookPage.notInCollection=Makroen [{0}] henviser til siden [{1}], hvis samling [{2}] ikke er den samme som den samling, der udgives nu [{3}]. Makroen ignoreres. På den udgivne side viser den sandsynligvis ikke noget.
+BookVersions.DefaultBookVersionsManager.transformLibrary.notPublished=Biblioteket [{0}] er ikke udgivet. Makroen ignoreres.
 
 # Creation templates
-### Missing: BookVersions.template.newBook=
-### Missing: BookVersions.template.newLibrary=
-### Missing: BookVersions.template.description=
-### Missing: BookVersions.template.title=
+BookVersions.template.newBook=Opret en ny bog.
+BookVersions.template.newLibrary=Opret et nyt bibliotek.
+BookVersions.template.description=Beskrivelse
+BookVersions.template.title=Titel
 
 # Page Creation form
-### Missing: BookVersions.creationForm.newPage=
-### Missing: BookVersions.creationForm.pageTitle=
-### Missing: BookVersions.creationForm.pageTitle.hint=
-### Missing: BookVersions.creationForm.pageUnversioned=
-### Missing: BookVersions.creationForm.pageUnversioned.hint=
-### Missing: BookVersions.creationForm.create=
-### Missing: BookVersions.creationForm.add=
-### Missing: BookVersions.creationForm.name=
-### Missing: BookVersions.creationForm.libTitle=
+BookVersions.creationForm.newPage=Ny side
+BookVersions.creationForm.pageTitle=Sidetitel
+BookVersions.creationForm.pageTitle.hint=Sidens titel.
+BookVersions.creationForm.pageUnversioned=Indhold uden versioner
+BookVersions.creationForm.pageUnversioned.hint=Når siden er uden versioner, er muligheden for at lave forskelligt indhold til flere versioner slået fra, og sidens indhold vises ens i alle bogens versioner. Du kan dog skifte tilbage til indhold med versioner.
+BookVersions.creationForm.create=Opret
+BookVersions.creationForm.add=Tilføj
+BookVersions.creationForm.name=Navn
+BookVersions.creationForm.libTitle=Bibliotekets titel
 
 # Version Creation form
-### Missing: BookVersions.creationForm.newVersion=
+BookVersions.creationForm.newVersion=Ny version
 
 # Variant Creation form
-### Missing: BookVersions.creationForm.newVariant=
+BookVersions.creationForm.newVariant=Ny variant
 
 # Library Creation form
-### Missing: BookVersions.creationForm.newLibrary=
+BookVersions.creationForm.newLibrary=Tilføj bibliotek
 
 # Publication Configuration Creation form
-### Missing: BookVersions.creationForm.newPublicationConfiguration=
+BookVersions.creationForm.newPublicationConfiguration=Tilføj udgivelseskonfiguration
 
 # Navigation menu
-### Missing: BookVersions.navMenu.versionSelect=
-### Missing: BookVersions.navMenu.versionSelect.hint=
-### Missing: BookVersions.navMenu.versionSelect.noContent=
-### Missing: BookVersions.navMenu.versionSelect.unversioned=
-### Missing: BookVersions.navMenu.versionSelect.tooltip.inherited=
-### Missing: BookVersions.navMenu.versionSelect.tooltip.versionned=
-### Missing: BookVersions.navMenu.versionSelect.tooltip.noVersion=
-### Missing: BookVersions.navMenu.versionSelect.tooltip.noContent=
-### Missing: BookVersions.navMenu.createVersionWithLink=
-### Missing: BookVersions.navMenu.variantSelect=
-### Missing: BookVersions.navMenu.pageIsNotAssociated=
-### Missing: BookVersions.navMenu.pageRestrictedTo=
-### Missing: BookVersions.navMenu.variantSelect.tooltip.restricted=
-### Missing: BookVersions.navMenu.variantSelect.tooltip.notAssociatedVariantSelect=
-### Missing: BookVersions.navMenu.variantSelect.tooltip.notAssociatedNoVariantSelected=
-### Missing: BookVersions.navMenu.associateVariantWithLink=
-### Missing: BookVersions.navMenu.languageSelect=
-### Missing: BookVersions.navMenu.noLanguageSelected=
-### Missing: BookVersions.navMenu.languageSelected=
-### Missing: BookVersions.navMenu.languageDefaultSelected=
-### Missing: BookVersions.navMenu.languageSelect.tooltip.languageSelected=
-### Missing: BookVersions.navMenu.languageSelect.tooltip.languageDefaultSelected=
-### Missing: BookVersions.navMenu.languageSelect.tooltip.noLanguageSelected=
-### Missing: BookVersions.navMenu.translationStatus.not_translated=
-### Missing: BookVersions.navMenu.translationStatus.outdated=
-### Missing: BookVersions.navMenu.translationStatus.translated=
-### Missing: BookVersions.navMenu.translationStatus.tooltip.not_translated=
-### Missing: BookVersions.navMenu.translationStatus.tooltip.outdated=
-### Missing: BookVersions.navMenu.translationStatus.tooltip.translated=
+BookVersions.navMenu.versionSelect=Version
+BookVersions.navMenu.versionSelect.hint=Indholdsversion: {0}
+BookVersions.navMenu.versionSelect.noContent=Ikke tilgængelig
+BookVersions.navMenu.versionSelect.unversioned=Uden versioner
+BookVersions.navMenu.versionSelect.tooltip.inherited=Der er intet indhold til denne side i version {0}, så det indhold, der er nedarvet fra version {1}, vises.
+BookVersions.navMenu.versionSelect.tooltip.versionned=Indholdet på denne side kommer fra version {0}.
+BookVersions.navMenu.versionSelect.tooltip.noVersion=Siden er uden versioner, så indholdet er det samme i alle versioner.
+BookVersions.navMenu.versionSelect.tooltip.noContent=Siden har versioner, men den har intet indhold til version {0} eller tidligere versioner, så der vises intet indhold.
+BookVersions.navMenu.createVersionWithLink=Opret indhold til version {0}
+BookVersions.navMenu.variantSelect=Variant
+BookVersions.navMenu.pageIsNotAssociated=Ikke knyttet til en variant
+BookVersions.navMenu.pageRestrictedTo=Begrænset til variant(er): {0}
+BookVersions.navMenu.variantSelect.tooltip.restricted=Siden er begrænset til variant(er): {0}. Siden udgives kun for denne/disse variant(er).
+BookVersions.navMenu.variantSelect.tooltip.notAssociatedVariantSelect=Siden er ikke knyttet til nogen variant. Hvis siden bruger makroen "variant", vises kun indholdet til varianten {0}.
+BookVersions.navMenu.variantSelect.tooltip.notAssociatedNoVariantSelected=Siden er ikke knyttet til nogen variant. Hvis siden bruger makroen, vises indholdet af alle disse makroer.
+BookVersions.navMenu.associateVariantWithLink=Knyt siden til varianten {0}
+BookVersions.navMenu.languageSelect=Sprog
+BookVersions.navMenu.noLanguageSelected=Sprog: intet
+BookVersions.navMenu.languageSelected=Sprog: {0}
+BookVersions.navMenu.languageDefaultSelected=Sprog: {0} (standard)
+BookVersions.navMenu.languageSelect.tooltip.languageSelected=Indholdet vises på sproget {0}. Indhold uden for sprogmakroen vises også.
+BookVersions.navMenu.languageSelect.tooltip.languageDefaultSelected=Indholdet vises på standardsproget {0}. Indhold uden for sprogmakroen vises også.
+BookVersions.navMenu.languageSelect.tooltip.noLanguageSelected=Indhold uden for makroen "Oversættelse af indhold" og inden for makroen til standardsproget vises.
+BookVersions.navMenu.translationStatus.not_translated=Oversættelsesstatus: mangler
+BookVersions.navMenu.translationStatus.outdated=Oversættelsesstatus: forældet
+BookVersions.navMenu.translationStatus.translated=Oversættelsesstatus: færdig
+BookVersions.navMenu.translationStatus.tooltip.not_translated=Oversættelsen er markeret som manglende i oversættelsesmakroen.
+BookVersions.navMenu.translationStatus.tooltip.outdated=Oversættelsen er markeret som forældet i oversættelsesmakroen.
+BookVersions.navMenu.translationStatus.tooltip.translated=Oversættelsen er markeret som færdig i oversættelsesmakroen.
 
 # Administration menu
-### Missing: BookVersions.adminMenu.title=
-### Missing: BookVersions.adminMenu.manage=
-### Missing: BookVersions.adminMenu.manageVersions=
-### Missing: BookVersions.adminMenu.manageVariants=
-### Missing: BookVersions.adminMenu.manageLibraries=
-### Missing: BookVersions.adminMenu.manageLanguages=
-### Missing: BookVersions.adminMenu.pageActions=
-### Missing: BookVersions.adminMenu.overview=
-### Missing: BookVersions.adminMenu.addPageToVariant=
-### Missing: BookVersions.adminMenu.removePageFromVariant=
-### Missing: BookVersions.adminMenu.publishLable=
-### Missing: BookVersions.navMenu.convertToUnversioned=
-### Missing: BookVersions.navMenu.convertToVersioned=
-### Missing: BookVersions.adminMenu.statusLable=
-### Missing: BookVersions.adminMenu.publish=
-### Missing: BookVersions.navMenu.markDeleted=
-### Missing: BookVersions.navMenu.unmarkDeleted=
-### Missing: BookVersions.navMenu.deleteVersion=
-### Missing: BookVersions.navMenu.deleteAllVersions=
-### Missing: BookVersions.navMenu.deletePage=
-### Missing: BookVersions.navMenu.noLanguageSelected=
-### Missing: BookVersions.navMenu.defaultLanguage=
-### Missing: BookVersions.adminMenu.librariesText=
-### Missing: BookVersions.adminMenu.libraries.showPagesBtn=
-### Missing: BookVersions.adminMenu.libraries.macrosPagesListHeading=
-### Missing: BookVersions.adminMenu.libraries.noMacroUsingPage=
+BookVersions.adminMenu.title=Versioner
+BookVersions.adminMenu.manage=Administrer
+BookVersions.adminMenu.manageVersions=Versioner
+BookVersions.adminMenu.manageVariants=Varianter
+BookVersions.adminMenu.manageLibraries=Biblioteker
+BookVersions.adminMenu.manageLanguages=Sprog
+BookVersions.adminMenu.pageActions=Sidehandlinger
+BookVersions.adminMenu.overview=Oversigt
+BookVersions.adminMenu.addPageToVariant=Knyt siden til varianten {0}
+BookVersions.adminMenu.removePageFromVariant=Fjern sidens tilknytning til varianten {0}
+BookVersions.adminMenu.publishLable=Udgivelse
+BookVersions.navMenu.convertToUnversioned=Konvertér til uden versioner
+BookVersions.navMenu.convertToVersioned=Konvertér til med versioner
+BookVersions.adminMenu.statusLable=Status
+BookVersions.adminMenu.publish=Udgivelse
+BookVersions.navMenu.markDeleted=Markér som slettet
+BookVersions.navMenu.unmarkDeleted=Fjern markering som slettet
+BookVersions.navMenu.deleteVersion=Slet denne version
+BookVersions.navMenu.deleteAllVersions=Slet alle versioner
+BookVersions.navMenu.deletePage=Slet denne side
+BookVersions.navMenu.noLanguageSelected=Sprog: intet
+BookVersions.navMenu.defaultLanguage=Standardsprog.
+BookVersions.adminMenu.librariesText=Følgende biblioteker er konfigureret til brug i den aktuelle bog. Du kan ændre konfigurationen ved at gå til {0}bogens administrationsside for versioner{1} og redigere versionssiderne.
+BookVersions.adminMenu.libraries.showPagesBtn=Vis tilknyttede sider
+BookVersions.adminMenu.libraries.macrosPagesListHeading=Sider, der indeholder biblioteksmakroen
+BookVersions.adminMenu.libraries.noMacroUsingPage=Ingen sider bruger denne biblioteksmakro.
 
 # PageSheet content
-### Missing: BookVersion.pageSheet.nocontent=
+BookVersion.pageSheet.nocontent=Der er intet indhold til denne version
 
 # Admin live data values
-### Missing: BookVersions.adminLD.version=
-### Missing: BookVersions.adminLD.variant=
-### Missing: BookVersions.adminLD.library=
+BookVersions.adminLD.version=Version
+BookVersions.adminLD.variant=Variant
+BookVersions.adminLD.library=Bibliotek
 ### Missing: BookVersions.adminLD.emptyvalue=
-### Missing: BookVersions.adminLD.doc.title=
-### Missing: BookVersions.adminLD.doc.creationDate=
-### Missing: BookVersions.adminLD.doc.date=
-### Missing: BookVersions.adminLD.doc.libraryReference=
-### Missing: BookVersions.adminLD.doc.libraryVersionReference=
-### Missing: BookVersions.adminLD.doc.precedingVersionReference=
-### Missing: BookVersions.adminLD.description=
-### Missing: BookVersions.adminLD._actions=
+BookVersions.adminLD.doc.title=Titel
+BookVersions.adminLD.doc.creationDate=Oprettelsesdato
+BookVersions.adminLD.doc.date=Seneste redigering
+BookVersions.adminLD.doc.libraryReference=Bibliotek
+BookVersions.adminLD.doc.libraryVersionReference=Biblioteksversion
+BookVersions.adminLD.doc.precedingVersionReference=Forrige version
+BookVersions.adminLD.description=Beskrivelse
+BookVersions.adminLD._actions=Handlinger
 
 # Variants linked pages Admin UI
-### Missing: BookVersions.variants.linkedPagesListHeading=
-### Missing: BookVersions.variants.macrosPagesListHeading=
-### Missing: BookVersions.variants.noLinkedPage=
-### Missing: BookVersions.variants.noMacroUsingPage=
-### Missing: BookVersions.variants.showPagesForVariant=
-### Missing: BookVersions.variants.loadPagesBtn=
+BookVersions.variants.linkedPagesListHeading=Sider, der er knyttet til den valgte variant
+BookVersions.variants.macrosPagesListHeading=Sider, der indeholder variantmakroen
+BookVersions.variants.noLinkedPage=Der er ingen sider knyttet til denne variant.
+BookVersions.variants.noMacroUsingPage=Ingen sider bruger denne variantmakro.
+BookVersions.variants.showPagesForVariant=Vis tilknyttede sider for varianten: 
+BookVersions.variants.loadPagesBtn=Vis tilknyttede sider
 
 # Library include macro
-### Missing: rendering.macro.includeLibrary.name=
-### Missing: rendering.macro.includeLibrary.description=
-### Missing: rendering.macro.includeLibrary.parameter.keyReference.name=
-### Missing: rendering.macro.includeLibrary.parameter.keyReference.description=
+rendering.macro.includeLibrary.name=Medtag bibliotek (Book Versions)
+rendering.macro.includeLibrary.description=Medtag indhold fra et bibliotek med versioner
+rendering.macro.includeLibrary.parameter.keyReference.name=Biblioteksnøgle
+rendering.macro.includeLibrary.parameter.keyReference.description=Nøglen til det bibliotek, indholdet skal hentes fra
 
 # Excerpt Library include macro
-### Missing: rendering.macro.excerptIncludeLibrary.name=
-### Missing: rendering.macro.excerptIncludeLibrary.description=
-### Missing: rendering.macro.excerptIncludeLibrary.parameter.keyReference.name=
-### Missing: rendering.macro.excerptIncludeLibrary.parameter.keyReference.description=
-### Missing: rendering.macro.excerptIncludeLibrary.parameter.name.name=
-### Missing: rendering.macro.excerptIncludeLibrary.parameter.name.description=
-### Missing: rendering.macro.excerptIncludeLibrary.parameter.nopanel.name=
-### Missing: rendering.macro.excerptIncludeLibrary.parameter.nopanel.description=
-### Missing: rendering.macro.excerptIncludeLibrary.parameter.inline.name=
-### Missing: rendering.macro.excerptIncludeLibrary.parameter.inline.description=
+rendering.macro.excerptIncludeLibrary.name=Medtag uddrag fra bibliotek (Book Versions)
+rendering.macro.excerptIncludeLibrary.description=Medtager uddrag fra biblioteker på den aktuelle side. De medtagne sider skal indeholde den enkle makro `excerpt`. Kræver Pro Macros fra XWiki SAS (betalt udvidelse).
+rendering.macro.excerptIncludeLibrary.parameter.keyReference.name=Biblioteksnøgle
+rendering.macro.excerptIncludeLibrary.parameter.keyReference.description=Nøglen til det bibliotek, indholdet skal hentes fra
+rendering.macro.excerptIncludeLibrary.parameter.name.name=Navn
+rendering.macro.excerptIncludeLibrary.parameter.name.description=Navnet på det uddrag, der skal vises
+rendering.macro.excerptIncludeLibrary.parameter.nopanel.name=Intet panel
+rendering.macro.excerptIncludeLibrary.parameter.nopanel.description=Slå panelet fra
+rendering.macro.excerptIncludeLibrary.parameter.inline.name=I teksten
+rendering.macro.excerptIncludeLibrary.parameter.inline.description=Brug makroen i teksten. Når den bruges i teksten, ignoreres parameteren panel.
 
 # Content Translation macro
-### Missing: rendering.macro.contentTranslation.name=
-### Missing: rendering.macro.contentTranslation.description=
-### Missing: rendering.macro.contentTranslation.parameter.language.name=
-### Missing: rendering.macro.contentTranslation.parameter.title.name=
-### Missing: rendering.macro.contentTranslation.parameter.title.description=
-### Missing: rendering.macro.contentTranslation.parameter.status.name=
-### Missing: rendering.macro.contentTranslation.parameter.status.description=
-### Missing: rendering.macro.contentTranslation.parameter.isDefault.name=
-### Missing: rendering.macro.contentTranslation.parameter.isDefault.description=
+rendering.macro.contentTranslation.name=Oversættelse af indhold (Book Versions)
+rendering.macro.contentTranslation.description=Tilføj oversat indhold
+rendering.macro.contentTranslation.parameter.language.name=Sprog
+rendering.macro.contentTranslation.parameter.title.name=Titel
+rendering.macro.contentTranslation.parameter.title.description=Oversættelsen af sidens titel.
+rendering.macro.contentTranslation.parameter.status.name=Status
+rendering.macro.contentTranslation.parameter.status.description=Oversættelsens status for det aktuelle sprog. Kun indhold med status "Oversat" udgives.
+rendering.macro.contentTranslation.parameter.isDefault.name=Er standard
+rendering.macro.contentTranslation.parameter.isDefault.description=Hvis sand, er det aktuelle sprog det standardsprog, der bruges, når sidens indhold vises.
 
 # Variant macro
-### Missing: rendering.macro.variant.name=
-### Missing: rendering.macro.variant.description=
-### Missing: rendering.macro.variant.parameter.name.name=
-### Missing: rendering.macro.variant.parameter.name.description=
+rendering.macro.variant.name=Indhold til varianter (Book Versions)
+rendering.macro.variant.description=Tilføj indhold til bestemte varianter
+rendering.macro.variant.parameter.name.name=Varianter
+rendering.macro.variant.parameter.name.description=De varianter, indholdet hører til.
 
     # Versions Admin UI
-### Missing: BookVersions.versions.LD.status=
-### Missing: BookVersions.versions.LD.doc.date=
-### Missing: BookVersions.versions.LD.doc.name=
-### Missing: BookVersions.versions.LD.doc.title=
-### Missing: BookVersions.versions.LD.doc.creationDate=
+BookVersions.versions.LD.status=Status
+BookVersions.versions.LD.doc.date=Seneste redigering
+BookVersions.versions.LD.doc.name=Version
+BookVersions.versions.LD.doc.title=Sidetitel
+BookVersions.versions.LD.doc.creationDate=Oprettelsesdato
 ### Missing: BookVersions.versions.LD.emptyvalue=
-### Missing: BookVersions.versions.LD.confirmDelete=
+BookVersions.versions.LD.confirmDelete=Når du sletter denne version, slettes også de indholdssider, der hører til den. Det kræver sletterettighed til hele bogen/biblioteket. Er du sikker?
 
 # Overview Admin UI
-### Missing: BookVersions.overview.LD.status=
-### Missing: BookVersions.overview.LD.doc.date=
-### Missing: BookVersions.overview.LD.doc.name=
-### Missing: BookVersions.overview.LD.doc.title=
-### Missing: BookVersions.overview.LD.doc.creationDate=
+BookVersions.overview.LD.status=Status
+BookVersions.overview.LD.doc.date=Seneste redigering
+BookVersions.overview.LD.doc.name=Version
+BookVersions.overview.LD.doc.title=Sidetitel
+BookVersions.overview.LD.doc.creationDate=Oprettelsesdato
 ### Missing: BookVersions.overview.LD.emptyvalue=
-### Missing: BookVersions.overview.LD.variantsList=
+BookVersions.overview.LD.variantsList=Liste over varianter
 
 # Multilingual
-### Missing: BookVersions.languages.warning=
-### Missing: BookVersions.languages.title.missing=
-### Missing: BookVersions.language.select=
-### Missing: BookVersions.Code.MultilingualClass_enabled=
-### Missing: BookVersions.Code.MultilingualClass_supportedLanguages=
+BookVersions.languages.warning=Der findes ingen oversættelse til det valgte sprog.
+BookVersions.languages.title.missing=Der findes ingen oversat titel til det valgte sprog.
+BookVersions.language.select=Vælg sprog ...
+BookVersions.Code.MultilingualClass_enabled=Understøt flere oversættelsessprog
+BookVersions.Code.MultilingualClass_supportedLanguages=Aktiverede oversættelsessprog
 
 # Edit inherited content
-### Missing: BookVersions.Code.CustomEditHandler.popupTitle=
-### Missing: BookVersions.Code.CustomEditHandler.popupDescription=
-### Missing: BookVersions.Code.CustomEditHandler.popupSwitchVersion=
-### Missing: BookVersions.Code.CustomEditHandler.popupCreateContentForVersion=
-### Missing: BookVersions.Code.CustomEditHandler.popupCancel=
+BookVersions.Code.CustomEditHandler.popupTitle=Rediger nedarvet indhold fra {0}
+BookVersions.Code.CustomEditHandler.popupDescription=Indholdet til version {0} findes ikke. Du kan enten oprette indholdet til denne version eller skifte til version {1}.
+BookVersions.Code.CustomEditHandler.popupSwitchVersion=Skift til version {0}
+BookVersions.Code.CustomEditHandler.popupCreateContentForVersion=Opret indhold til version {0}
+BookVersions.Code.CustomEditHandler.popupCancel=Annuller
 
 # Version delete
-### Missing: BookVersions.Code.CustomVersionDeleteHandler.popupTitle=
-### Missing: BookVersions.Code.CustomVersionDeleteHandler.popupDescription=
-### Missing: BookVersions.Code.CustomVersionDeleteHandler.popupProceed=
-### Missing: BookVersions.Code.CustomVersionDeleteHandler.popupCancel=
+BookVersions.Code.CustomVersionDeleteHandler.popupTitle=Slet version
+BookVersions.Code.CustomVersionDeleteHandler.popupDescription=Når du sletter denne version, slettes også de indholdssider, der hører til den. Det kræver sletterettighed til hele bogen/biblioteket.
+BookVersions.Code.CustomVersionDeleteHandler.popupProceed=Slet alle
+BookVersions.Code.CustomVersionDeleteHandler.popupCancel=Annuller
 
 # Publication progress
-### Missing: BookVersions.Code.PublicationProgress.title=
-### Missing: BookVersions.Code.PublicationProgress.back=
-### Missing: BookVersions.Code.PublicationProgress.goToPublished=
-### Missing: BookVersions.Code.PublicationActionHandler.error.jobCreation=
-### Missing: BookVersions.Code.PublicationActionHandler.error.permission=
+BookVersions.Code.PublicationProgress.title=Udgivelsens forløb
+BookVersions.Code.PublicationProgress.back=Tilbage
+BookVersions.Code.PublicationProgress.goToPublished=Gå til målområdet
+BookVersions.Code.PublicationActionHandler.error.jobCreation=Udgivelsesjobbet kunne ikke oprettes
+BookVersions.Code.PublicationActionHandler.error.permission=Adgang nægtet
 
 # Set status progress
-### Missing: BookVersions.Code.BookOverview.statusMissing=
-### Missing: BookVersions.Code.BookOverview.changeStatusFailed=
-### Missing: BookVersions.Code.BookOverview.changeStatus=
-### Missing: BookVersions.Code.BookOverview.changeStatusProgress=
-### Missing: BookVersions.Code.BookOverview.statusField=
-### Missing: BookVersions.Code.BookOverview.statusFieldHint=
-### Missing: BookVersions.Code.BookOverview.statusPlaceHolder=
-### Missing: BookVersions.Code.BookOverview.changeStatusBtn=
+BookVersions.Code.BookOverview.statusMissing=Angiv en statusværdi, der skal sættes på siderne
+BookVersions.Code.BookOverview.changeStatusFailed=Batchjobbet til ændring af status mislykkedes
+BookVersions.Code.BookOverview.changeStatus=Skift status
+BookVersions.Code.BookOverview.changeStatusProgress=Forløb for ændring af status
+BookVersions.Code.BookOverview.statusField=Ny status
+BookVersions.Code.BookOverview.statusFieldHint=Den nye status, der skal sættes på de valgte sider
+BookVersions.Code.BookOverview.statusPlaceHolder=Vælg den nye status
+BookVersions.Code.BookOverview.changeStatusBtn=Skift status på de valgte sider
 
 # Include Sibling Page macro
-### Missing: BookVersions.includesibling.outsidespace=
-### Missing: BookVersions.includesibling.doesnotexist=
-### Missing: rendering.macro.includeSiblingBookPage.name=
-### Missing: rendering.macro.includeSiblingBookPage.description=
-### Missing: rendering.macro.includeSiblingBookPage.parameter.reference.name=
-### Missing: rendering.macro.includeSiblingBookPage.parameter.reference.description=
+BookVersions.includesibling.outsidespace=Makroen Medtag søsterside skal henvise til sider i samme område.
+BookVersions.includesibling.doesnotexist=Den side, der henvises til i makroen Medtag søsterside, findes ikke.
+rendering.macro.includeSiblingBookPage.name=Medtag søsterside i bogen (Book Versions)
+rendering.macro.includeSiblingBookPage.description=Medtag sider fra samme bog i samme version.
+rendering.macro.includeSiblingBookPage.parameter.reference.name=Reference
+rendering.macro.includeSiblingBookPage.parameter.reference.description=Referencen til den side, der skal medtages.
 </content>
 </xwikidoc>
