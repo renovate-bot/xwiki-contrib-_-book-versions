@@ -277,7 +277,7 @@
     #end
   #end
   #if ($isVariant)
-    $wikimacro.content
+    {{wikimacrocontent}}
   #end
 {{/velocity}}</code>
     </property>
