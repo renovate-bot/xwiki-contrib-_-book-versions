@@ -73,6 +73,8 @@ import org.xwiki.rendering.block.Block;
 import org.xwiki.rendering.block.MacroBlock;
 import org.xwiki.rendering.block.XDOM;
 import org.xwiki.rendering.block.match.ClassBlockMatcher;
+import org.xwiki.rendering.macro.Macro;
+import org.xwiki.rendering.macro.descriptor.ContentDescriptor;
 import org.xwiki.rendering.parser.ParseException;
 import org.xwiki.rendering.parser.Parser;
 import org.xwiki.rendering.renderer.BlockRenderer;
@@ -3283,6 +3285,10 @@ public class DefaultBookVersionsManager implements BookVersionsManager
                     continue;
                 }
 
+                if (!shouldParseMacroContent(block)) {
+                    continue;
+                }
+
                 // We will take a quick shortcut here and directly parse the macro content with the syntax of the
                 // document
                 logger.debug("[transformXDOM] Calling parse on [{}] with syntax [{}]", id, syntaxId);
@@ -3331,6 +3337,18 @@ public class DefaultBookVersionsManager implements BookVersionsManager
 
         return hasXDOMChanged || transformedTranslation || transformedLibrary || transformedExceptLibrary
             || transformSiblingBookPage || transformedReferences;
+    }
+
+    private boolean shouldParseMacroContent(MacroBlock macroBlock) throws ComponentLookupException
+    {
+        ComponentManager componentManager = this.componentManagerProvider.get();
+        if (!componentManager.hasComponent(Macro.class, macroBlock.getId())) {
+            return false;
+        }
+
+        Macro<?> macro = componentManager.getInstance(Macro.class, macroBlock.getId());
+        ContentDescriptor contentDescriptor = macro.getDescriptor().getContentDescriptor();
+        return contentDescriptor != null && Block.LIST_BLOCK_TYPE.equals(contentDescriptor.getType());
     }
 
     private boolean transformTranslation(XDOM xdom, String language)
